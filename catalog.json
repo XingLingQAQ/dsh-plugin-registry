@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-21T16:31:36.061Z",
+  "generatedAt": "2026-08-21T16:32:20.937Z",
   "source": {
     "topic": "dsh-plugin",
-    "scanned": 551,
+    "scanned": 550,
     "accepted": 304,
-    "installable": 178
+    "installable": 177
   },
   "plugins": [
     {
@@ -14,7 +14,7 @@
       "ref": "main",
       "version": "3.23.1",
       "description": "Plug-in vision for text-only LLMs, powered by the free Antigravity CLI",
-      "stars": 3495,
+      "stars": 3496,
       "updatedAt": "2026-08-21T15:25:37Z",
       "license": "MIT",
       "homepage": "https://github.com/liustack/modlens#readme",
@@ -126,7 +126,7 @@
       "ref": "main",
       "version": "1.17.1",
       "description": "Visual plugin market inside DeepSeek Harness — browse, search, and one-click install community plugins. · DSH 可视化插件市场：逛一逛，点一下，装好。",
-      "stars": 1625,
+      "stars": 1627,
       "updatedAt": "2026-08-21T09:46:20Z",
       "license": "MIT",
       "homepage": "https://dshmarket.com",
@@ -205,7 +205,7 @@
       "ref": "main",
       "version": "1.7.6",
       "description": "Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots). One-command install, no Python, image turns work like ordinary tool-calling turns.",
-      "stars": 930,
+      "stars": 929,
       "updatedAt": "2026-08-21T16:10:03Z",
       "license": "MIT",
       "homepage": "https://github.com/ysr666/dsh-vision-router",
@@ -2604,7 +2604,7 @@
       "version": "0.4.7",
       "description": "DeepSeek Harness 换肤插件（Dream Skin for DSH）：8 套 iOS / Linear 式清透冷调的高质感主题 + 弥散光壁纸 + 每皮肤智能背景 + 强调色 + 主题包分享，把换肤做成材质与配色克制的高级感工艺，而非贴图 — in the spirit of Codex Dream Skin, elevated.",
       "stars": 75,
-      "updatedAt": "2026-08-21T16:30:39Z",
+      "updatedAt": "2026-08-21T16:30:51Z",
       "license": "MIT",
       "homepage": "https://github.com/RevolutionLA/dsh-dream-skin#readme",
       "topics": [
@@ -4613,38 +4613,6 @@
       "installable": true
     },
     {
-      "id": "dsh-client-auto-continue",
-      "repo": "HsiangNianian/dsh-auto-continue",
-      "ref": "main",
-      "version": "0.8.1",
-      "description": "DSH Web UI plugin: automatically sends \"继续\" (continue) when a request is interrupted by network errors or other non-human causes",
-      "stars": 33,
-      "updatedAt": "2026-08-21T06:15:05Z",
-      "license": "MIT",
-      "homepage": "https://github.com/HsiangNianian/dsh-auto-continue",
-      "topics": [
-        "auto-continue",
-        "automatic",
-        "cordis",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "plugin",
-        "web-ui"
-      ],
-      "client": null,
-      "host": {
-        "entry": null,
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/HsiangNianian/dsh-auto-continue/tar.gz/main",
-      "npm": {
-        "version": "0.8.1",
-        "tarball": "https://registry.npmjs.org/dsh-client-auto-continue/-/dsh-client-auto-continue-0.8.1.tgz"
-      },
-      "installable": true
-    },
-    {
       "id": "@dsh-feishu/dsh-feishu",
       "repo": "PGZXB/dsh-feishu",
       "ref": "main",
@@ -5145,11 +5113,19 @@
       "topics": [
         "backup",
         "config-manager",
+        "configuration",
+        "deepseek",
         "deepseek-harness",
         "dsh",
         "dsh-plugin",
+        "export",
+        "import",
+        "mcp",
         "migration",
-        "plugin"
+        "restore",
+        "skills",
+        "sync",
+        "webdav"
       ],
       "client": null,
       "host": {
@@ -5977,6 +5953,38 @@
       "installable": true
     },
     {
+      "id": "@aiworkskills/aws-wechat-article",
+      "repo": "aiworkskills/dsh-wechat-article",
+      "ref": "main",
+      "version": "0.1.0",
+      "description": "DeepSeek Harness bundle for the aiworkskills WeChat article workflow",
+      "stars": 2,
+      "updatedAt": "2026-08-21T16:31:26Z",
+      "license": "Apache-2.0",
+      "homepage": "https://aiworkskills.cn/",
+      "topics": [
+        "agent-skills",
+        "ai-writing",
+        "content-creation",
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugin",
+        "open-source",
+        "typescript",
+        "wechat",
+        "wechat-article",
+        "wechat-official-account"
+      ],
+      "client": null,
+      "host": {
+        "entry": null,
+        "patch": "./cordis.patch.yml"
+      },
+      "tarball": "https://codeload.github.com/aiworkskills/dsh-wechat-article/tar.gz/main",
+      "npm": null,
+      "installable": false
+    },
+    {
       "id": "@beihaizb/dsh-notebook",
       "repo": "beihzb/dsh-notebook",
       "ref": "main",
@@ -6025,7 +6033,7 @@
       "version": "0.1.0",
       "description": "Native DeepSeek Harness plugin for J-Link debugging: manager + tools + device patches + visualization. 原生 J-Link 调试插件（管理器+工具+补丁注册+可视化）。",
       "stars": 2,
-      "updatedAt": "2026-08-21T16:17:49Z",
+      "updatedAt": "2026-08-21T16:31:54Z",
       "license": null,
       "homepage": "",
       "topics": [
@@ -6276,40 +6284,6 @@
       "installable": true
     },
     {
-      "id": "dsh-knowledge-graph",
-      "repo": "cwbcheng/dsh-knowledge-graph",
-      "ref": "main",
-      "version": "1.0.0",
-      "description": "DSH Cordis plugin: turn arbitrary source text into an AI-generated knowledge graph (facts / inferences / concepts / definitions / examples / counter-examples / rules) with two-way linking between the graph and the original text, plus evidence-grounded verification, questioning, one-click fixes and a",
-      "stars": 2,
-      "updatedAt": "2026-08-21T14:47:51Z",
-      "license": "MIT",
-      "homepage": null,
-      "topics": [
-        "ai",
-        "cordis-plugin",
-        "dsh",
-        "dsh-plugin",
-        "knowledge-base",
-        "knowledge-graph"
-      ],
-      "client": {
-        "platform": "web",
-        "immediately": false,
-        "inject": [
-          "@deepseek-ai/dsh-client-runtime"
-        ],
-        "entry": "./lib/client.js"
-      },
-      "host": {
-        "entry": "./lib/index.js",
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/cwbcheng/dsh-knowledge-graph/tar.gz/main",
-      "npm": null,
-      "installable": false
-    },
-    {
       "id": "dsh-monitor",
       "repo": "iambbp/dsh-monitor",
       "ref": "main",
@@ -6363,6 +6337,43 @@
         "patch": "./cordis.patch.yml"
       },
       "tarball": "https://codeload.github.com/wellcover/dsh-opencodego-quota/tar.gz/main",
+      "npm": null,
+      "installable": false
+    },
+    {
+      "id": "dsh-plugin-auth-webserver",
+      "repo": "kolawong/dsh-plugin-auth-webserver",
+      "ref": "main",
+      "version": "0.3.0",
+      "description": "DeepSeek Harness bundle providing HTTP Basic Authentication, a bilingual web login page, a Web UI settings card, remote IP access, and a Web Cryptography UUID polyfill for self-hosted server deployments.",
+      "stars": 2,
+      "updatedAt": "2026-08-21T16:30:41Z",
+      "license": "MIT",
+      "homepage": null,
+      "topics": [
+        "authentication",
+        "basic-auth",
+        "cordis",
+        "deepseek-harness",
+        "dsh-plugin",
+        "webserver"
+      ],
+      "client": {
+        "platform": "web",
+        "immediately": false,
+        "inject": [
+          "@deepseek-ai/dsh-client-ui-settings-plugins",
+          "@deepseek-ai/dsh-client-locale",
+          "@deepseek-ai/dsh-client-runtime",
+          "@deepseek-ai/dsh-client-ui-primitives"
+        ],
+        "entry": "./client.js"
+      },
+      "host": {
+        "entry": null,
+        "patch": "./cordis.patch.yml"
+      },
+      "tarball": "https://codeload.github.com/kolawong/dsh-plugin-auth-webserver/tar.gz/main",
       "npm": null,
       "installable": false
     },
@@ -6613,7 +6624,7 @@
       "version": "1.0.0",
       "description": "Blue Glass Theme (ocean fantasy) for DeepSeek Harness Web — a static profile bundle. 海洋幻想主题：海洋背景、玻璃气泡、海洋侧边栏、鲸鱼设置按钮、炫彩模型文字。",
       "stars": 2,
-      "updatedAt": "2026-08-21T16:13:15Z",
+      "updatedAt": "2026-08-21T16:30:56Z",
       "license": "NOASSERTION",
       "homepage": "",
       "topics": [
@@ -6998,7 +7009,7 @@
       "version": "0.1.0",
       "description": "Pre-deep-dive ornaments for the DSH Web GUI turn-status row: swap the spouting whale for anime skins (whale-girl variant, cat-girl, mermaid) with a surface-prepare then dive choreography. Official cordis bundle: host half registers the settings namespace, browser half patches the 'Deep diving...' st",
       "stars": 1,
-      "updatedAt": "2026-08-21T16:25:08Z",
+      "updatedAt": "2026-08-21T16:31:55Z",
       "license": "Apache-2.0",
       "homepage": "https://github.com/skymecode/dsh-deep-diving#readme",
       "topics": [
