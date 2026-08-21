@@ -1,0 +1,47 @@
+name: refresh catalog
+
+on:
+  schedule:
+    # Daily, off the hour to avoid the top-of-hour API crowd.
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/build-catalog.mjs'
+      - '.github/workflows/refresh.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-catalog
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Build catalog
+        env:
+          # Authenticated search: 30 requests/minute instead of 10, and the
+          # manifest reads go to raw.githubusercontent.com, which is unmetered.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/build-catalog.mjs
+
+      - name: Commit when changed
+        run: |
+          if git diff --quiet -- catalog.json; then
+            echo "catalog unchanged"
+            exit 0
+          fi
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add catalog.json
+          git commit -m "chore: refresh catalog ($(date -u +%Y-%m-%d))"
+          git push

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DSH plugin catalog",
+  "type": "object",
+  "required": ["schemaVersion", "generatedAt", "source", "plugins"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "source": {
+      "type": "object",
+      "required": ["topic", "scanned", "accepted"],
+      "properties": {
+        "topic": { "type": "string", "description": "GitHub topic the candidates came from" },
+        "scanned": { "type": "integer", "description": "candidates returned by search" },
+        "accepted": { "type": "integer", "description": "candidates confirmed by their manifest" }
+      }
+    },
+    "plugins": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "repo", "ref", "version", "tarball", "client", "host"],
+        "properties": {
+          "id": { "type": "string", "description": "package name; also the install directory under plugins/" },
+          "repo": { "type": "string", "description": "owner/name" },
+          "ref": { "type": "string", "description": "branch the manifest was read from" },
+          "version": { "type": "string" },
+          "description": { "type": "string" },
+          "stars": { "type": "integer" },
+          "updatedAt": { "type": ["string", "null"] },
+          "license": { "type": ["string", "null"] },
+          "homepage": { "type": ["string", "null"] },
+          "topics": { "type": "array", "items": { "type": "string" } },
+          "client": {
+            "description": "browser half, or null when the plugin has none",
+            "type": ["object", "null"],
+            "required": ["platform", "immediately", "inject", "entry"],
+            "properties": {
+              "platform": { "type": "string" },
+              "immediately": { "type": "boolean" },
+              "inject": { "type": "array", "items": { "type": "string" } },
+              "entry": { "type": "string", "description": "exports[\"./client\"] — the bundle the module system fetches" }
+            }
+          },
+          "host": {
+            "description": "host half, or null when the plugin has none",
+            "type": ["object", "null"],
+            "required": ["entry", "patch"],
+            "properties": {
+              "entry": { "type": ["string", "null"] },
+              "patch": { "type": ["string", "null"] }
+            }
+          },
+          "tarball": { "type": "string", "description": "codeload tar.gz of ref" }
+        }
+      }
+    }
+  }
+}
