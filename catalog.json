@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-21T15:01:27.086Z",
+  "generatedAt": "2026-08-21T15:04:08.761Z",
   "source": {
     "topic": "dsh-plugin",
-    "scanned": 558,
-    "accepted": 317
+    "scanned": 556,
+    "accepted": 315
   },
   "plugins": [
     {
       "id": "@liustack/modlens",
       "repo": "liustack/modlens",
       "ref": "main",
-      "version": "3.22.2",
+      "version": "3.23.0",
       "description": "Plug-in vision for text-only LLMs, powered by the free Antigravity CLI",
-      "stars": 3500,
-      "updatedAt": "2026-08-21T14:11:07Z",
+      "stars": 3499,
+      "updatedAt": "2026-08-21T15:01:31Z",
       "license": "MIT",
       "homepage": "https://github.com/liustack/modlens#readme",
       "topics": [
@@ -312,7 +312,7 @@
       "ref": "main",
       "version": "0.21.0",
       "description": "A DeepSeek Harness plugin for context insight and management, with context dashboard and context command, for understanding how the context is made of, and how it evolves.",
-      "stars": 723,
+      "stars": 727,
       "updatedAt": "2026-08-21T12:41:24Z",
       "license": "Apache-2.0",
       "homepage": "https://github.com/bowenliang123/dsh-context",
@@ -417,7 +417,7 @@
       "ref": "main",
       "version": "0.12.0",
       "description": "OpenRouter for tools - 2,600 agent-friendly tools, pay for the usage, not subscription",
-      "stars": 544,
+      "stars": 545,
       "updatedAt": "2026-08-21T07:54:32Z",
       "license": "NOASSERTION",
       "homepage": "https://treg.to",
@@ -602,7 +602,7 @@
       "ref": "main",
       "version": "0.17.1",
       "description": "把九种 IM 机器人和公网 AI Office 接入本机 DeepSeek Harness。 Connect nine IM channels and a public AI Office to a local DeepSeek Harness.",
-      "stars": 372,
+      "stars": 373,
       "updatedAt": "2026-08-21T11:10:16Z",
       "license": "MIT",
       "homepage": "https://github.com/xmanrui/dsh-im#readme",
@@ -1694,7 +1694,7 @@
       "ref": "main",
       "version": "1.0.0",
       "description": "Persistent multi-model squads for DeepSeek Harness with durable orchestration, DAG workflows, run history, and provider-reported token usage",
-      "stars": 114,
+      "stars": 115,
       "updatedAt": "2026-08-19T02:37:45Z",
       "license": "MIT",
       "homepage": "https://github.com/toolclub/dsh-agent-team-gui#readme",
@@ -1727,7 +1727,7 @@
       "id": "dsh-undo-savepoint",
       "repo": "lire1131/dsh-undo-savepoint",
       "ref": "master",
-      "version": "0.3.7",
+      "version": "0.3.8",
       "description": "DSH undo/rollback system: snapshot config files on change, undo/redo the last action from the WebUI or by chat, and roll back broken plugin trees without reinstalling. Works even when DSH fails to boot (offline CLI + GUI).",
       "stars": 110,
       "updatedAt": "2026-08-21T14:59:21Z",
@@ -2707,10 +2707,10 @@
       "id": "dsh-plugin-bridge",
       "repo": "Totoro-qaq/dsh-plugin-bridge",
       "ref": "main",
-      "version": "0.2.5",
+      "version": "0.2.6",
       "description": "DeepSeek Harness Cordis bundle for cross-preset session migration via fixed-schema handoff summaries",
       "stars": 63,
-      "updatedAt": "2026-08-21T14:59:08Z",
+      "updatedAt": "2026-08-21T15:02:22Z",
       "license": "MIT",
       "homepage": "https://github.com/Totoro-qaq/dsh-plugin-bridge#readme",
       "topics": [
@@ -2778,10 +2778,10 @@
       "id": "deepseek-harness-wallet",
       "repo": "feibi-mochi/deepseek-harness-control-center",
       "ref": "main",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "description": "Local-first account monitoring, usage accounting, official recharge, completion reminders, flexible layout, host-gated session controls, and multi-account management with hot account switching for DeepSeek Harness.",
       "stars": 60,
-      "updatedAt": "2026-08-21T14:56:45Z",
+      "updatedAt": "2026-08-21T15:02:53Z",
       "license": "MIT",
       "homepage": "https://github.com/feibi-mochi/deepseek-harness-control-center#readme",
       "topics": [
@@ -2994,6 +2994,61 @@
       "tarball": "https://codeload.github.com/multica-ai/dsh-multica-runtime/tar.gz/main"
     },
     {
+      "id": "dsh-auth-in-one",
+      "repo": "Stormycry-cryp/dsh-AuthInOne",
+      "ref": "main",
+      "version": "0.2.0-alpha.4",
+      "description": "Self-contained DeepSeek Harness plugin for Provider login, model switching, image fallback, usage analytics, and same-port Web restart",
+      "stars": 53,
+      "updatedAt": "2026-08-15T16:32:17Z",
+      "license": "MIT",
+      "homepage": null,
+      "topics": [
+        "cost-attribution",
+        "cost-tracking",
+        "custom-api",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "image-understanding",
+        "llm-provider",
+        "model-switching",
+        "multimodal",
+        "oauth",
+        "openai-codex",
+        "openai-compatible",
+        "provider-management",
+        "same-port-restart",
+        "self-contained-installer",
+        "text-only-model",
+        "token-usage",
+        "usage-attribution",
+        "vision-fallback"
+      ],
+      "client": {
+        "platform": "web",
+        "immediately": false,
+        "inject": [
+          "@deepseek-ai/dsh-api-remotes",
+          "@deepseek-ai/dsh-client-connection",
+          "@deepseek-ai/dsh-client-runtime",
+          "@deepseek-ai/dsh-client-schema-form",
+          "@deepseek-ai/dsh-client-ui-primitives",
+          "@deepseek-ai/dsh-client-ui-settings",
+          "@deepseek-ai/dsh-client-ui-sidebar",
+          "@deepseek-ai/dsh-client-ui-slots",
+          "@deepseek-ai/dsh-client-web-react",
+          "@deepseek-ai/dsh-client-locale"
+        ],
+        "entry": "./lib/client.js"
+      },
+      "host": {
+        "entry": null,
+        "patch": "./cordis.patch.yml"
+      },
+      "tarball": "https://codeload.github.com/Stormycry-cryp/dsh-AuthInOne/tar.gz/main"
+    },
+    {
       "id": "dsh-git-memory",
       "repo": "seriousz158/dsh-memory",
       "ref": "main",
@@ -3109,61 +3164,6 @@
         "patch": "./cordis.patch.yml"
       },
       "tarball": "https://codeload.github.com/vlln/dsh-navbar/tar.gz/main"
-    },
-    {
-      "id": "dsh-auth-in-one",
-      "repo": "Stormycry-cryp/dsh-AuthInOne",
-      "ref": "main",
-      "version": "0.2.0-alpha.4",
-      "description": "Self-contained DeepSeek Harness plugin for Provider login, model switching, image fallback, usage analytics, and same-port Web restart",
-      "stars": 52,
-      "updatedAt": "2026-08-15T16:32:17Z",
-      "license": "MIT",
-      "homepage": null,
-      "topics": [
-        "cost-attribution",
-        "cost-tracking",
-        "custom-api",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "image-understanding",
-        "llm-provider",
-        "model-switching",
-        "multimodal",
-        "oauth",
-        "openai-codex",
-        "openai-compatible",
-        "provider-management",
-        "same-port-restart",
-        "self-contained-installer",
-        "text-only-model",
-        "token-usage",
-        "usage-attribution",
-        "vision-fallback"
-      ],
-      "client": {
-        "platform": "web",
-        "immediately": false,
-        "inject": [
-          "@deepseek-ai/dsh-api-remotes",
-          "@deepseek-ai/dsh-client-connection",
-          "@deepseek-ai/dsh-client-runtime",
-          "@deepseek-ai/dsh-client-schema-form",
-          "@deepseek-ai/dsh-client-ui-primitives",
-          "@deepseek-ai/dsh-client-ui-settings",
-          "@deepseek-ai/dsh-client-ui-sidebar",
-          "@deepseek-ai/dsh-client-ui-slots",
-          "@deepseek-ai/dsh-client-web-react",
-          "@deepseek-ai/dsh-client-locale"
-        ],
-        "entry": "./lib/client.js"
-      },
-      "host": {
-        "entry": null,
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/Stormycry-cryp/dsh-AuthInOne/tar.gz/main"
     },
     {
       "id": "dsh-balance-plugin",
@@ -3344,7 +3344,7 @@
       "ref": "main",
       "version": "0.3.1",
       "description": "Composable working, reasoning, quality, and human-reviewed self-evolution controls for DeepSeek Harness Web.",
-      "stars": 43,
+      "stars": 44,
       "updatedAt": "2026-08-18T03:28:15Z",
       "license": "MIT",
       "homepage": "https://github.com/GraySilver/dsh-evolve-modes#readme",
@@ -3394,7 +3394,7 @@
       "id": "dsh-status-rotator",
       "repo": "01Virex/dsh-status-rotator",
       "ref": "main",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "description": "Rotates the DSH chat turn-status label (\"Deep diving...\") through user-defined phrases every few seconds, editable from DSH's settings panel.",
       "stars": 43,
       "updatedAt": "2026-08-21T15:00:26Z",
@@ -3723,7 +3723,7 @@
       "version": "1.5.0",
       "description": "尽可能的使dsh适配竖屏等移动端设备",
       "stars": 38,
-      "updatedAt": "2026-08-21T13:01:32Z",
+      "updatedAt": "2026-08-21T15:03:55Z",
       "license": "MIT",
       "homepage": null,
       "topics": [
@@ -3874,7 +3874,7 @@
       "ref": "main",
       "version": "0.3.1",
       "description": "Tiny semantic inline emoji for DSH Agent responses",
-      "stars": 35,
+      "stars": 36,
       "updatedAt": "2026-08-19T08:35:02Z",
       "license": "MIT",
       "homepage": "https://github.com/hellodigua/dsh-emoji#readme",
@@ -4057,31 +4057,36 @@
       "tarball": "https://codeload.github.com/PolinniZhong/dsh-omi-voice/tar.gz/main"
     },
     {
-      "id": "dsh-client-auto-continue",
-      "repo": "HsiangNianian/dsh-auto-continue",
+      "id": "@feiyang666/dsh-usage-plugin",
+      "repo": "feiyang-dev/dsh-usage-plugin",
       "ref": "main",
-      "version": "0.8.1",
-      "description": "DSH Web UI plugin: automatically sends \"继续\" (continue) when a request is interrupted by network errors or other non-human causes",
+      "version": "1.9.4",
+      "description": "DeepSeek Harness usage & cost tracker plugin: per-call token/cache-hit stats, peak/off-peak billing, DeepSeek balance query, CSV/JSON/PNG export with custom destination, and persistent local storage. Ships a host half plus a web client half in one npm package; installs into a DSH profile as a dsh.bu",
       "stars": 33,
-      "updatedAt": "2026-08-21T06:15:05Z",
+      "updatedAt": "2026-08-20T11:44:54Z",
       "license": "MIT",
-      "homepage": "https://github.com/HsiangNianian/dsh-auto-continue",
+      "homepage": "https://github.com/feiyang-dev/dsh-usage-plugin#readme",
       "topics": [
-        "auto-continue",
-        "automatic",
-        "cordis",
+        "deepseek",
         "deepseek-harness",
+        "deepseek-v4",
+        "deepseek-v4-pro",
         "dsh",
-        "dsh-plugin",
-        "plugin",
-        "web-ui"
+        "dsh-plugin"
       ],
-      "client": null,
+      "client": {
+        "platform": "web",
+        "immediately": false,
+        "inject": [
+          "@deepseek-ai/dsh-client-ui-conversation"
+        ],
+        "entry": "./lib/client.js"
+      },
       "host": {
-        "entry": null,
+        "entry": "./lib/index.js",
         "patch": "./cordis.patch.yml"
       },
-      "tarball": "https://codeload.github.com/HsiangNianian/dsh-auto-continue/tar.gz/main"
+      "tarball": "https://codeload.github.com/feiyang-dev/dsh-usage-plugin/tar.gz/main"
     },
     {
       "id": "dsh-workbench-plugin",
@@ -4526,7 +4531,7 @@
       "version": "0.1.2",
       "description": "Upload button + drag-and-drop files into DSH conversation as local paths (works with any vision plugin)",
       "stars": 6,
-      "updatedAt": "2026-08-21T14:55:40Z",
+      "updatedAt": "2026-08-21T15:02:34Z",
       "license": "MIT",
       "homepage": null,
       "topics": [
@@ -5851,6 +5856,30 @@
       "tarball": "https://codeload.github.com/moyu-good/dsh-lark-bridge/tar.gz/main"
     },
     {
+      "id": "@deepseek-ai/dsh-matt-skills-flow",
+      "repo": "hollis-openlab/dsh-matt-skills-flow",
+      "ref": "main",
+      "version": "0.2.0",
+      "description": "Durable development workflow orchestration for mattpocock/skills inside DeepSeek Harness",
+      "stars": 1,
+      "updatedAt": "2026-08-21T15:03:50Z",
+      "license": "MIT",
+      "homepage": null,
+      "topics": [
+        "deepseek-harness",
+        "developer-tools",
+        "dsh-plugin",
+        "mattpocock-skills",
+        "workflow"
+      ],
+      "client": null,
+      "host": {
+        "entry": null,
+        "patch": "./cordis.patch.yml"
+      },
+      "tarball": "https://codeload.github.com/hollis-openlab/dsh-matt-skills-flow/tar.gz/main"
+    },
+    {
       "id": "@fno2010/dsh-web-search-ext",
       "repo": "fno2010/dsh-web-search-ext",
       "ref": "main",
@@ -5894,10 +5923,10 @@
       "id": "@ne-ilyxa/dsh-session-drafts",
       "repo": "ne-ilyxa/dsh-session-drafts",
       "ref": "master",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Cursor-style New Session for DeepSeek Harness: every click mints a durable blank draft session (no reuse), with a sidebar drafts switcher",
       "stars": 1,
-      "updatedAt": "2026-08-21T14:57:47Z",
+      "updatedAt": "2026-08-21T15:02:26Z",
       "license": "BSD-3-Clause",
       "homepage": "",
       "topics": [
@@ -6692,6 +6721,28 @@
       "tarball": "https://codeload.github.com/00080000/dsh-project-memory/tar.gz/main"
     },
     {
+      "id": "dsh-qq-onebot-bridge",
+      "repo": "cheesehaqi/dsh-qq-onebot-bridge",
+      "ref": "main",
+      "version": "0.2.2",
+      "description": "QQ ↔ DeepSeek Harness agent bridge over OneBot v11 (reverse WebSocket): per-group/per-user session grouping, @-quote voice speech-to-text (GLM-ASR / OpenAI-compatible), quote & image resolution, face/sticker tools, /new /status commands. Independent bundle; remove anytime: dsh plugin --profile web r",
+      "stars": 1,
+      "updatedAt": "2026-08-21T14:59:56Z",
+      "license": "MIT",
+      "homepage": "",
+      "topics": [
+        "dsh-onebot",
+        "dsh-plugin",
+        "dsh-qq-bot"
+      ],
+      "client": null,
+      "host": {
+        "entry": "./lib/index.js",
+        "patch": "./cordis.patch.yml"
+      },
+      "tarball": "https://codeload.github.com/cheesehaqi/dsh-qq-onebot-bridge/tar.gz/main"
+    },
+    {
       "id": "dsh-qqchat",
       "repo": "Coffeiz/dsh-qqchat",
       "ref": "main",
@@ -6730,9 +6781,9 @@
       "repo": "Xyz10088/dsh-quick-restart",
       "ref": "main",
       "version": "0.1.0",
-      "description": "一键刷新 dsh web 的侧边栏按钮插件：单击即重启 dsh web 进程（重载全部插件与技能），服务恢复后页面自动刷新，无需二次确认。One-click refresh/restart button for dsh web in the sidebar footer with auto page reload.",
+      "description": "装完新插件/新技能，点一下「刷新 DSH」即可生效，无需手动重启：侧边栏一键刷新 dsh web，服务恢复后页面自动重载。Activate new plugins and skills with one click, no manual restart: sidebar refresh button for dsh web with auto page reload.",
       "stars": 1,
-      "updatedAt": "2026-08-21T14:59:22Z",
+      "updatedAt": "2026-08-21T15:03:56Z",
       "license": "MIT",
       "homepage": null,
       "topics": [
@@ -7052,6 +7103,37 @@
       "tarball": "https://codeload.github.com/Ri0n72Y/dsh-workspace-scope/tar.gz/main"
     },
     {
+      "id": "dsh-zhihu-dashboard",
+      "repo": "kexuejin/dsh-zhihu-dashboard",
+      "ref": "main",
+      "version": "0.1.0",
+      "description": "Zhihu (知乎) dashboard for DeepSeek Harness: hot list with trends, follow feed, post tracking, and app-idea distillation — from the UI and as native agent tools (zhihu_search/hot/answer/global_search/followees).",
+      "stars": 1,
+      "updatedAt": "2026-08-21T15:02:15Z",
+      "license": "MIT",
+      "homepage": null,
+      "topics": [
+        "dsh-plugin"
+      ],
+      "client": {
+        "platform": "web",
+        "immediately": false,
+        "inject": [
+          "@deepseek-ai/dsh-client-runtime",
+          "@deepseek-ai/dsh-client-locale",
+          "@deepseek-ai/dsh-client-ui-slots",
+          "@deepseek-ai/dsh-client-ui-layout",
+          "@deepseek-ai/dsh-client-ui-sidebar"
+        ],
+        "entry": "./client/client.js"
+      },
+      "host": {
+        "entry": "./lib/index.js",
+        "patch": "./cordis.patch.yml"
+      },
+      "tarball": "https://codeload.github.com/kexuejin/dsh-zhihu-dashboard/tar.gz/main"
+    },
+    {
       "id": "kaleidosphere-dsh-plugin",
       "repo": "JoFe2/kaleidosphere-dsh-plugin",
       "ref": "main",
@@ -7150,28 +7232,6 @@
         "patch": "./cordis.patch.yml"
       },
       "tarball": "https://codeload.github.com/hyyhf/mindgarden/tar.gz/main"
-    },
-    {
-      "id": "@edwindigital/dsh-web-search-microsoft-webiq",
-      "repo": "EdwinDigital/dsh-web-search-microsoft-webiq",
-      "ref": "main",
-      "version": "0.1.0",
-      "description": "Microsoft Web IQ search provider and configuration card for DeepSeek Harness",
-      "stars": 0,
-      "updatedAt": "2026-08-21T13:26:30Z",
-      "license": "MIT",
-      "homepage": null,
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin",
-        "web-search"
-      ],
-      "client": null,
-      "host": {
-        "entry": null,
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/EdwinDigital/dsh-web-search-microsoft-webiq/tar.gz/main"
     },
     {
       "id": "@kiligzzz/dsh-capability-manager",
@@ -7966,48 +8026,6 @@
       "tarball": "https://codeload.github.com/naivemap/dsh-geo-viewer/tar.gz/main"
     },
     {
-      "id": "dsh-geography-rivers",
-      "repo": "uckkk/dsh-geography-rivers",
-      "ref": "main",
-      "version": "0.1.0",
-      "description": "世界大河",
-      "stars": 0,
-      "updatedAt": "2026-08-21T13:25:28Z",
-      "license": "MIT",
-      "homepage": null,
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ],
-      "client": null,
-      "host": {
-        "entry": "./lib/index.js",
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/uckkk/dsh-geography-rivers/tar.gz/main"
-    },
-    {
-      "id": "dsh-geography-terms",
-      "repo": "uckkk/dsh-geography-terms",
-      "ref": "main",
-      "version": "0.1.0",
-      "description": "地理术语",
-      "stars": 0,
-      "updatedAt": "2026-08-21T13:27:31Z",
-      "license": "MIT",
-      "homepage": null,
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ],
-      "client": null,
-      "host": {
-        "entry": "./lib/index.js",
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/uckkk/dsh-geography-terms/tar.gz/main"
-    },
-    {
       "id": "dsh-geometric-mean",
       "repo": "uckkk/dsh-geometric-mean",
       "ref": "main",
@@ -8656,27 +8674,6 @@
       "tarball": "https://codeload.github.com/LucienLL/dsh-plugin-proxy/tar.gz/main"
     },
     {
-      "id": "dsh-polonium",
-      "repo": "uckkk/dsh-polonium",
-      "ref": "main",
-      "version": "0.1.0",
-      "description": "钋元素",
-      "stars": 0,
-      "updatedAt": "2026-08-21T13:25:22Z",
-      "license": "MIT",
-      "homepage": null,
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ],
-      "client": null,
-      "host": {
-        "entry": "./lib/index.js",
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/uckkk/dsh-polonium/tar.gz/main"
-    },
-    {
       "id": "dsh-portugal",
       "repo": "uckkk/dsh-portugal",
       "ref": "main",
@@ -8717,28 +8714,6 @@
         "patch": "./cordis.patch.yml"
       },
       "tarball": "https://codeload.github.com/uckkk/dsh-potassium/tar.gz/main"
-    },
-    {
-      "id": "dsh-qq-onebot-bridge",
-      "repo": "cheesehaqi/dsh-qq-onebot-bridge",
-      "ref": "main",
-      "version": "0.2.2",
-      "description": "QQ ↔ DeepSeek Harness agent bridge over OneBot v11 (reverse WebSocket): per-group/per-user session grouping, @-quote voice speech-to-text (GLM-ASR / OpenAI-compatible), quote & image resolution, face/sticker tools, /new /status commands. Independent bundle; remove anytime: dsh plugin --profile web r",
-      "stars": 0,
-      "updatedAt": "2026-08-21T14:59:56Z",
-      "license": "MIT",
-      "homepage": "",
-      "topics": [
-        "dsh-onebot",
-        "dsh-plugin",
-        "dsh-qq-bot"
-      ],
-      "client": null,
-      "host": {
-        "entry": "./lib/index.js",
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/cheesehaqi/dsh-qq-onebot-bridge/tar.gz/main"
     },
     {
       "id": "dsh-readwrite-hub",
@@ -8822,7 +8797,7 @@
       "version": "0.3.0",
       "description": "Global DeepSeek Harness plugin: subagent_routed — run a one-shot subagent fully mounted on ANY agent preset, from ANY session, with per-call model/provider override, a model-availability pre-check, and external CLI engines (codex / claude / codebuddy).",
       "stars": 0,
-      "updatedAt": "2026-08-21T14:53:11Z",
+      "updatedAt": "2026-08-21T15:02:49Z",
       "license": "MIT",
       "homepage": "https://github.com/bpc-oss/dsh-routed-subagent",
       "topics": [
@@ -9110,10 +9085,10 @@
       "id": "dshhub-market",
       "repo": "dshhub-co/dshhub-market",
       "ref": "main",
-      "version": "0.8.2",
+      "version": "0.8.3",
       "description": "DeepSeek Harness 口令插件市场客户端：输码解锁插件，连接创作者与买家（DSHHub.co 驱动，fork of dsh-market）。",
       "stars": 0,
-      "updatedAt": "2026-08-21T14:45:04Z",
+      "updatedAt": "2026-08-21T15:00:53Z",
       "license": "MIT",
       "homepage": "https://www.dshhub.co",
       "topics": [
