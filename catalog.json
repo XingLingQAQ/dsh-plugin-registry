@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-21T15:04:08.761Z",
+  "generatedAt": "2026-08-21T15:05:00.893Z",
   "source": {
     "topic": "dsh-plugin",
-    "scanned": 556,
+    "scanned": 554,
     "accepted": 315
   },
   "plugins": [
@@ -2170,7 +2170,7 @@
       "version": "0.6.2",
       "description": "Unofficial DeepSeek Harness LLM provider plugin for Command Code, ported from pi-commandcode-provider (MIT). Registers the 'commandcode' provider route with a Models-page card and live model catalog.",
       "stars": 84,
-      "updatedAt": "2026-08-21T14:20:42Z",
+      "updatedAt": "2026-08-21T15:04:29Z",
       "license": "MIT",
       "homepage": "https://github.com/Mars-Sea/dsh-commandcode-provider#readme",
       "topics": [
@@ -3663,6 +3663,40 @@
       "tarball": "https://codeload.github.com/DDDMUC/dsh-free-search/tar.gz/master"
     },
     {
+      "id": "dsh-meme",
+      "repo": "yyh-001/dsh-meme",
+      "ref": "main",
+      "version": "0.1.39",
+      "description": "DeepSeek Harness 表情包插件:内置官方-001 与大肥鱼两套图库,设置页扫描切换,send_meme 发图(Web/QQ)。",
+      "stars": 39,
+      "updatedAt": "2026-08-20T14:27:08Z",
+      "license": "MIT",
+      "homepage": "https://yyh-001.github.io/dsh-meme/",
+      "topics": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "meme",
+        "qq-bot",
+        "selfloom",
+        "semantic-search"
+      ],
+      "client": {
+        "platform": "web",
+        "immediately": false,
+        "inject": [
+          "@deepseek-ai/dsh-client-runtime",
+          "@deepseek-ai/dsh-client-connection",
+          "@deepseek-ai/dsh-client-ui-settings"
+        ],
+        "entry": "./client.js"
+      },
+      "host": {
+        "entry": "./index.js",
+        "patch": "./cordis.patch.yml"
+      },
+      "tarball": "https://codeload.github.com/yyh-001/dsh-meme/tar.gz/main"
+    },
+    {
       "id": "dsh-remote",
       "repo": "liguobao/deepseek-harness-remote",
       "ref": "main",
@@ -3723,7 +3757,7 @@
       "version": "1.5.0",
       "description": "尽可能的使dsh适配竖屏等移动端设备",
       "stars": 38,
-      "updatedAt": "2026-08-21T15:03:55Z",
+      "updatedAt": "2026-08-21T15:04:29Z",
       "license": "MIT",
       "homepage": null,
       "topics": [
@@ -3762,40 +3796,6 @@
         "patch": "./cordis.patch.yml"
       },
       "tarball": "https://codeload.github.com/HuanLinOTO/dsh-plugin-mineru/tar.gz/master"
-    },
-    {
-      "id": "dsh-meme",
-      "repo": "yyh-001/dsh-meme",
-      "ref": "main",
-      "version": "0.1.39",
-      "description": "DeepSeek Harness 表情包插件:内置官方-001 与大肥鱼两套图库,设置页扫描切换,send_meme 发图(Web/QQ)。",
-      "stars": 38,
-      "updatedAt": "2026-08-20T14:27:08Z",
-      "license": "MIT",
-      "homepage": "https://yyh-001.github.io/dsh-meme/",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin",
-        "meme",
-        "qq-bot",
-        "selfloom",
-        "semantic-search"
-      ],
-      "client": {
-        "platform": "web",
-        "immediately": false,
-        "inject": [
-          "@deepseek-ai/dsh-client-runtime",
-          "@deepseek-ai/dsh-client-connection",
-          "@deepseek-ai/dsh-client-ui-settings"
-        ],
-        "entry": "./client.js"
-      },
-      "host": {
-        "entry": "./index.js",
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/yyh-001/dsh-meme/tar.gz/main"
     },
     {
       "id": "dsh-popout-sidebar",
@@ -4927,36 +4927,6 @@
         "patch": "./cordis.patch.yml"
       },
       "tarball": "https://codeload.github.com/stuarthu/dsh-crew/tar.gz/main"
-    },
-    {
-      "id": "dsh-diagram",
-      "repo": "hanzhangzzz/dsh-diagram",
-      "ref": "master",
-      "version": "0.3.4",
-      "description": "Turn articles in DeepSeek Harness into editable Excalidraw canvases",
-      "stars": 3,
-      "updatedAt": "2026-08-21T13:27:56Z",
-      "license": "MIT",
-      "homepage": "https://github.com/hanzhangzzz/dsh-diagram#readme",
-      "topics": [
-        "canvas",
-        "deepseek-harness",
-        "diagram",
-        "diagram-editor",
-        "dsh",
-        "dsh-bundle",
-        "dsh-plugin",
-        "excalidraw",
-        "flowchart",
-        "visualization",
-        "web-ui"
-      ],
-      "client": null,
-      "host": {
-        "entry": null,
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/hanzhangzzz/dsh-diagram/tar.gz/master"
     },
     {
       "id": "dsh-pixel-ui",
@@ -6978,50 +6948,6 @@
       "tarball": "https://codeload.github.com/licyer/dsh-token-monitor/tar.gz/main"
     },
     {
-      "id": "dsh-token-usage-counter",
-      "repo": "Mu-scorpio/token-usage-counter",
-      "ref": "main",
-      "version": "0.2.1",
-      "description": "Self-contained token usage statistics and provider-aware reasoning effort controls for DeepSeek Harness.",
-      "stars": 1,
-      "updatedAt": "2026-08-21T13:27:46Z",
-      "license": "MIT",
-      "homepage": "https://github.com/Mu-scorpio/token-usage-counter#readme",
-      "topics": [
-        "ai-developer-tools",
-        "cordis",
-        "deepseek",
-        "deepseek-harness",
-        "developer-tools",
-        "dsh-plugin",
-        "heatmap",
-        "llm",
-        "llm-observability",
-        "prompt-cache",
-        "token-analytics",
-        "token-counter",
-        "token-usage",
-        "typescript",
-        "usage-statistics"
-      ],
-      "client": {
-        "platform": "web",
-        "immediately": false,
-        "inject": [
-          "@deepseek-ai/dsh-api-remotes",
-          "@deepseek-ai/dsh-client-runtime",
-          "@deepseek-ai/dsh-client-ui-settings",
-          "@deepseek-ai/dsh-client-locale"
-        ],
-        "entry": "./lib/client.js"
-      },
-      "host": {
-        "entry": "./lib/index.js",
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/Mu-scorpio/token-usage-counter/tar.gz/main"
-    },
-    {
       "id": "dsh-usage-statistics-panel",
       "repo": "HaoyueQin/dsh-usage-statistics-panel",
       "ref": "main",
@@ -7074,6 +7000,32 @@
         "patch": "./cordis.patch.yml"
       },
       "tarball": "https://codeload.github.com/DevRico003/dsh-verifier-gate/tar.gz/main"
+    },
+    {
+      "id": "dsh-vision-api-localorweb",
+      "repo": "TIPSONG/dsh-vision-api-localorweb",
+      "ref": "main",
+      "version": "0.1.0",
+      "description": "DSH 插件：可接入识图模型 API（本地大模型识图工具 + 设置界面）。配置 OpenAI 兼容的识图接口（LM Studio / vLLM / Ollama 等），接口留空即不启用识图模型。",
+      "stars": 1,
+      "updatedAt": "2026-08-21T15:04:28Z",
+      "license": "MIT",
+      "homepage": "",
+      "topics": [
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugins",
+        "lm-studio",
+        "vision"
+      ],
+      "client": null,
+      "host": {
+        "entry": null,
+        "patch": "./cordis.patch.yml"
+      },
+      "tarball": "https://codeload.github.com/TIPSONG/dsh-vision-api-localorweb/tar.gz/main"
     },
     {
       "id": "dsh-workspace-scope",
@@ -8521,6 +8473,34 @@
       "tarball": "https://codeload.github.com/cyanfish-x/dsh-picture-fit/tar.gz/master"
     },
     {
+      "id": "dsh-plugin-appshot",
+      "repo": "TaurusWood/dsh-plugin-appshot",
+      "ref": "main",
+      "version": "0.2.0",
+      "description": "dsh-plugin-appshot — a DeepSeek Harness plugin for macOS context screenshot capture.",
+      "stars": 0,
+      "updatedAt": "2026-08-21T15:03:14Z",
+      "license": "MIT",
+      "homepage": "https://github.com/TaurusWood/dsh-plugin-appshot#readme",
+      "topics": [
+        "dsh-plugin"
+      ],
+      "client": {
+        "platform": "web",
+        "immediately": false,
+        "inject": [
+          "@deepseek-ai/dsh-client-ui-slots",
+          "@deepseek-ai/dsh-client-ui-conversation"
+        ],
+        "entry": "./dist/client.js"
+      },
+      "host": {
+        "entry": "./dist/index.js",
+        "patch": "./cordis.patch.yml"
+      },
+      "tarball": "https://codeload.github.com/TaurusWood/dsh-plugin-appshot/tar.gz/main"
+    },
+    {
       "id": "dsh-plugin-choice-refresh",
       "repo": "Pasumao/dsh-plugin-choice-refresh",
       "ref": "main",
@@ -8839,31 +8819,6 @@
     },
     {
       "id": "dsh-session-manager",
-      "repo": "SuperPaiGu/dsh-session-manager",
-      "ref": "main",
-      "version": "0.2.10",
-      "description": "DSH 批量管理会话（纯增量）：侧栏底部批量面板，每行可单删或多选批量删除（进系统回收站），删除后立即消失",
-      "stars": 0,
-      "updatedAt": "2026-08-21T13:56:59Z",
-      "license": null,
-      "homepage": "",
-      "topics": [
-        "dsh-plugin"
-      ],
-      "client": {
-        "platform": "web",
-        "immediately": false,
-        "inject": [],
-        "entry": "./client.js"
-      },
-      "host": {
-        "entry": "./index.js",
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/SuperPaiGu/dsh-session-manager/tar.gz/main"
-    },
-    {
-      "id": "dsh-session-manager",
       "repo": "EIGHTfs/dsh-session-manager",
       "ref": "master",
       "version": "1.19.0",
@@ -8889,6 +8844,31 @@
         "patch": "./cordis.patch.yml"
       },
       "tarball": "https://codeload.github.com/EIGHTfs/dsh-session-manager/tar.gz/master"
+    },
+    {
+      "id": "dsh-session-manager",
+      "repo": "SuperPaiGu/dsh-session-manager",
+      "ref": "main",
+      "version": "0.2.10",
+      "description": "DSH 批量管理会话（纯增量）：侧栏底部批量面板，每行可单删或多选批量删除（进系统回收站），删除后立即消失",
+      "stars": 0,
+      "updatedAt": "2026-08-21T13:56:59Z",
+      "license": null,
+      "homepage": "",
+      "topics": [
+        "dsh-plugin"
+      ],
+      "client": {
+        "platform": "web",
+        "immediately": false,
+        "inject": [],
+        "entry": "./client.js"
+      },
+      "host": {
+        "entry": "./index.js",
+        "patch": "./cordis.patch.yml"
+      },
+      "tarball": "https://codeload.github.com/SuperPaiGu/dsh-session-manager/tar.gz/main"
     },
     {
       "id": "dsh-simple-worktree",
