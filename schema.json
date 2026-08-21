@@ -8,18 +8,19 @@
     "generatedAt": { "type": "string", "format": "date-time" },
     "source": {
       "type": "object",
-      "required": ["topic", "scanned", "accepted"],
+      "required": ["topic", "scanned", "accepted", "installable"],
       "properties": {
         "topic": { "type": "string", "description": "GitHub topic the candidates came from" },
         "scanned": { "type": "integer", "description": "candidates returned by search" },
-        "accepted": { "type": "integer", "description": "candidates confirmed by their manifest" }
+        "accepted": { "type": "integer", "description": "candidates confirmed by their manifest" },
+        "installable": { "type": "integer", "description": "accepted entries with a published npm tarball" }
       }
     },
     "plugins": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "repo", "ref", "version", "tarball", "client", "host"],
+        "required": ["id", "repo", "ref", "version", "tarball", "client", "host", "npm", "installable"],
         "properties": {
           "id": { "type": "string", "description": "package name; also the install directory under plugins/" },
           "repo": { "type": "string", "description": "owner/name" },
@@ -51,7 +52,23 @@
               "patch": { "type": ["string", "null"] }
             }
           },
-          "tarball": { "type": "string", "description": "codeload tar.gz of ref" }
+          "tarball": {
+            "type": "string",
+            "description": "codeload tar.gz of ref — SOURCE only. Most plugins build their client entry, so this archive is usually missing it; install from npm.tarball instead."
+          },
+          "npm": {
+            "description": "the published package, or null when the plugin was never published",
+            "type": ["object", "null"],
+            "required": ["version", "tarball"],
+            "properties": {
+              "version": { "type": "string", "description": "dist-tags.latest" },
+              "tarball": { "type": "string", "description": "registry tarball — contains the built `files` set" }
+            }
+          },
+          "installable": {
+            "type": "boolean",
+            "description": "true when npm is non-null; a client can install without running a build"
+          }
         }
       }
     }

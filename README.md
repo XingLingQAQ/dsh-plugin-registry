@@ -37,8 +37,24 @@ result is identical for everyone.
 3. Keep the ones declaring a browser half, a host half, or both. Drop the rest —
    repositories carrying a `dsh` field for presets or skills are not installable
    as plugins.
-4. Sort by stars, then id, so an unchanged upstream produces no diff. Commit only
+4. Look up each confirmed plugin on npm and record its published tarball.
+5. Sort by stars, then id, so an unchanged upstream produces no diff. Commit only
    when the file actually changed.
+
+## Install from `npm.tarball`, not from `tarball`
+
+This is the part that bites. Most of these plugins declare a client entry that is
+a *build output* — `./lib/client.js`, `./dist/client.js` — listed in `files` and
+shipped to npm, but gitignored in the repository. A GitHub source archive
+therefore lands a package whose declared entry does not exist, and the plugin
+silently fails to load.
+
+`npm.tarball` contains exactly the `files` set, already built, so installing it
+needs no toolchain on the target machine. Use it. `tarball` is kept for reference
+and for the rare plugin that commits its built entry.
+
+`installable` is `false` when a plugin was never published to npm. Those entries
+are reported but cannot be installed without cloning and building by hand.
 
 ## Fields worth knowing
 
@@ -49,7 +65,6 @@ result is identical for everyone.
   `exports["./client"]`.
 - `id` is the package name, including any scope, and is also the directory name a
   client should install into.
-- `tarball` points at `codeload.github.com` for the recorded `ref`.
 
 Entries are reported as found. Presence in this catalog confirms that a
 repository declares itself a DSH plugin; it is not a review, an endorsement, or a

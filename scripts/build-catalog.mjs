@@ -141,13 +141,45 @@ async function mapPool(items, worker) {
   return out
 }
 
+/**
+ * Look up the published package: the tarball a client should actually install.
+ *
+ * A GitHub source tarball is the wrong artifact for most of these plugins. Their
+ * declared client entry (`exports["./client"]`) is a build output — `lib/`,
+ * `dist/` — which is listed in `files` and shipped to npm but gitignored in the
+ * repository. Installing the source archive therefore lands a package whose
+ * entry file does not exist. The npm tarball contains exactly the `files` set,
+ * already built, so it needs no toolchain on the installing machine.
+ */
+async function readPublished(name) {
+  const res = await fetch(`https://registry.npmjs.org/${name.replace('/', '%2f')}`, {
+    headers: { accept: 'application/vnd.npm.install-v1+json' },
+  })
+  if (!res.ok) return undefined
+  const packument = await res.json()
+  const version = packument['dist-tags']?.latest
+  const tarball = typeof version === 'string' ? packument.versions?.[version]?.dist?.tarball : undefined
+  return typeof tarball === 'string' ? { version, tarball } : undefined
+}
+
 const candidates = await collectCandidates()
 console.log(`candidates: ${candidates.length}`)
 
-const plugins = await mapPool(candidates, async (item) => {
+const confirmed = await mapPool(candidates, async (item) => {
   const read = await readManifest(item.full_name, item.default_branch)
   if (read === undefined) return undefined
   return toEntry(item, read.ref, read.manifest)
+})
+
+// Second pass: only confirmed plugins are worth an npm lookup.
+const plugins = await mapPool(confirmed, async (entry) => {
+  const published = await readPublished(entry.id)
+  return {
+    ...entry,
+    npm: published ?? null,
+    // What a client can install without building anything.
+    installable: published !== undefined,
+  }
 })
 
 // Stable order so a run with no upstream change produces no diff.
@@ -156,10 +188,15 @@ plugins.sort((a, b) => (b.stars - a.stars) || a.id.localeCompare(b.id))
 const catalog = {
   schemaVersion: SCHEMA_VERSION,
   generatedAt: new Date().toISOString(),
-  source: { topic: TOPIC, scanned: candidates.length, accepted: plugins.length },
+  source: {
+    topic: TOPIC,
+    scanned: candidates.length,
+    accepted: plugins.length,
+    installable: plugins.filter(p => p.installable).length,
+  },
   plugins,
 }
 
 const { writeFile } = await import('node:fs/promises')
 await writeFile('catalog.json', `${JSON.stringify(catalog, null, 2)}\n`, 'utf8')
-console.log(`accepted: ${plugins.length} -> catalog.json`)
+console.log(`accepted: ${plugins.length} (installable ${catalog.source.installable}) -> catalog.json`)
