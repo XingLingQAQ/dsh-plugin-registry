@@ -1,3 +1,5 @@
 node_modules
 *.log
 .commitmsg.tmp
+_probe/
+catalog.prev.json

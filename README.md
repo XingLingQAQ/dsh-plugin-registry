@@ -65,6 +65,10 @@ are reported but cannot be installed without cloning and building by hand.
   `exports["./client"]`.
 - `id` is the package name, including any scope, and is also the directory name a
   client should install into.
+- `category` is a content bucket (`safety`, `manager`, `integration`, ...),
+  derived deterministically from the manifest's keywords, topics, and
+  description by `scripts/classify.mjs` — not a hand label. The full enum and
+  the matching rules live there.
 
 Entries are reported as found. Presence in this catalog confirms that a
 repository declares itself a DSH plugin; it is not a review, an endorsement, or a

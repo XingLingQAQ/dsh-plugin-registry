@@ -12,6 +12,8 @@
  * API rate limit; only the searches do.
  */
 
+import { classifyCategory } from './classify.mjs'
+
 const TOPIC = 'dsh-plugin'
 const PER_PAGE = 100
 const PAGES_PER_SORT = 3
@@ -106,8 +108,26 @@ function toEntry(item, ref, manifest) {
   // (presets, skills, agent teams) have neither half and are not installable.
   if (clientView === undefined && hostView === undefined) return undefined
 
+  // keywords feed the category classifier; they are not stored on the entry
+  // because the catalog only keeps fields a client needs at install time.
+  const keywords = Array.isArray(manifest.keywords)
+    ? manifest.keywords.filter(k => typeof k === 'string')
+    : []
+  const id = typeof manifest.name === 'string' && manifest.name ? manifest.name : item.name
+  const topics = Array.isArray(item.topics) ? item.topics : []
+  // Deterministic content bucket; see scripts/classify.mjs. Computed after the
+  // plugin check so non-plugins never get categorized.
+  const category = classifyCategory({
+    id,
+    description: (manifest.description ?? item.description ?? '').slice(0, 300),
+    topics,
+    keywords,
+    hasClient: clientView !== undefined,
+    hasHost: hostView !== undefined,
+  })
+
   return {
-    id: typeof manifest.name === 'string' && manifest.name ? manifest.name : item.name,
+    id,
     repo: item.full_name,
     ref,
     version: typeof manifest.version === 'string' ? manifest.version : '0.0.0',
@@ -116,7 +136,8 @@ function toEntry(item, ref, manifest) {
     updatedAt: item.pushed_at ?? null,
     license: item.license?.spdx_id ?? null,
     homepage: manifest.homepage ?? item.homepage ?? null,
-    topics: Array.isArray(item.topics) ? item.topics : [],
+    topics,
+    category,
     client: clientView ?? null,
     host: hostView ?? null,
     tarball: `https://codeload.github.com/${item.full_name}/tar.gz/${ref}`,

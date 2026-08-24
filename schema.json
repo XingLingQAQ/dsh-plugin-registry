@@ -20,7 +20,7 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "repo", "ref", "version", "tarball", "client", "host", "npm", "installable"],
+        "required": ["id", "repo", "ref", "version", "tarball", "client", "host", "npm", "installable", "category"],
         "properties": {
           "id": { "type": "string", "description": "package name; also the install directory under plugins/" },
           "repo": { "type": "string", "description": "owner/name" },
@@ -32,6 +32,11 @@
           "license": { "type": ["string", "null"] },
           "homepage": { "type": ["string", "null"] },
           "topics": { "type": "array", "items": { "type": "string" } },
+          "category": {
+            "type": "string",
+            "description": "content category derived from id+description+topics+keywords by scripts/classify.mjs; deterministic so the catalog stays zero-diff",
+            "enum": ["safety","manager","integration","provider","ui-theme","ui-enhancement","tool","automation","session","agent-skill","other"]
+          },
           "client": {
             "description": "browser half, or null when the plugin has none",
             "type": ["object", "null"],
