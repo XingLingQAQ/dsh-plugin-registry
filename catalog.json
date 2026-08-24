@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-24T12:15:48.526Z",
+  "generatedAt": "2026-08-24T12:27:50.339Z",
   "source": {
     "topic": "dsh-plugin",
-    "scanned": 542,
-    "accepted": 295,
-    "installable": 199
+    "scanned": 543,
+    "accepted": 293,
+    "installable": 194
   },
   "plugins": [
     {
@@ -96,7 +96,7 @@
       "version": "0.9.0",
       "description": "Claude Code style interactive TUI front door for DeepSeek Harness agents, built on the ported Ink core.",
       "stars": 2433,
-      "updatedAt": "2026-08-24T12:12:31Z",
+      "updatedAt": "2026-08-24T12:18:06Z",
       "license": "MIT",
       "homepage": "https://github.com/ccch1mneyyy/dsh-TUI#readme",
       "topics": [
@@ -127,10 +127,10 @@
       "id": "dshmarket",
       "repo": "dsh-market/dsh-market",
       "ref": "main",
-      "version": "1.23.1",
+      "version": "1.24.0",
       "description": "Visual plugin market inside DeepSeek Harness — browse, search, and one-click install community plugins. · DSH 可视化插件市场：逛一逛，点一下，装好。",
-      "stars": 2146,
-      "updatedAt": "2026-08-24T12:07:14Z",
+      "stars": 2147,
+      "updatedAt": "2026-08-24T12:24:48Z",
       "license": "MIT",
       "homepage": "https://dshmarket.com",
       "topics": [
@@ -157,8 +157,8 @@
       },
       "tarball": "https://codeload.github.com/dsh-market/dsh-market/tar.gz/main",
       "npm": {
-        "version": "1.23.1",
-        "tarball": "https://registry.npmjs.org/dshmarket/-/dshmarket-1.23.1.tgz"
+        "version": "1.24.0",
+        "tarball": "https://registry.npmjs.org/dshmarket/-/dshmarket-1.24.0.tgz"
       },
       "installable": true
     },
@@ -253,7 +253,7 @@
       "version": "1.7.7",
       "description": "Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots). One-command install, no Python, image turns work like ordinary tool-calling turns.",
       "stars": 957,
-      "updatedAt": "2026-08-24T12:11:23Z",
+      "updatedAt": "2026-08-24T12:20:54Z",
       "license": "MIT",
       "homepage": "https://github.com/ysr666/dsh-vision-router",
       "topics": [
@@ -323,7 +323,7 @@
       "ref": "main",
       "version": "0.2.9",
       "description": "DSH Web 界面右下角的 DeepSeek 余额小鲸鱼挂件（含今日已用、峰谷定价、随机台词、音效与每轮消耗统计）",
-      "stars": 820,
+      "stars": 823,
       "updatedAt": "2026-08-24T04:41:06Z",
       "license": "MIT",
       "homepage": "",
@@ -537,7 +537,7 @@
       "ref": "main",
       "version": "1.13.4",
       "description": "把 DeepSeek Harness 装进你的口袋：一个包、一个设置页，手机扫码即同步访问电脑上的 DSH（局域网 + 公网，实时同屏）。",
-      "stars": 581,
+      "stars": 582,
       "updatedAt": "2026-08-23T13:28:38Z",
       "license": "GPL-2.0",
       "homepage": "https://github.com/shaobeichen/dsh-pocket",
@@ -993,7 +993,7 @@
       "version": "0.1.8",
       "description": "Oh-DSH: installable Desktop, Web, and TUI surfaces over DeepSeek Harness",
       "stars": 260,
-      "updatedAt": "2026-08-24T12:10:03Z",
+      "updatedAt": "2026-08-24T12:20:26Z",
       "license": "MIT",
       "homepage": "https://dsh.openatom.club/",
       "topics": [
@@ -1148,7 +1148,7 @@
       "ref": "main",
       "version": "0.1.0",
       "description": "为 DeepSeek Harness 带来分层记忆（全局 / 用户 / 项目 / GIT 分支 / 每日）与自我进化（经验沉淀 + 技能自动创建）和技能管理、待办管理、CLI 调度（kimi/codex/grok/hermes 等外部 AI 统一调度）、临时信息便签，带 WebUI 管理界面。Hermes-style long-term memory, self-evolution, skills, todos and external CLI agent dispatch for DeepSeek Harness.",
-      "stars": 240,
+      "stars": 241,
       "updatedAt": "2026-08-24T10:11:39Z",
       "license": "MIT",
       "homepage": "",
@@ -2374,7 +2374,7 @@
       "version": "2.8.3",
       "description": "Argo 阿尔戈 — 统一搜索与证据核验。推荐 npx -y github:taxueseek/argo 或 install.sh 安装（不依赖 npm 发版）。多语言路由、120+ 引擎、影视/体育/金融等垂直源、垂直结构化模态卡、10 个 MCP 工具。",
       "stars": 108,
-      "updatedAt": "2026-08-24T12:13:11Z",
+      "updatedAt": "2026-08-24T12:24:24Z",
       "license": "MIT",
       "homepage": "",
       "topics": [
@@ -3480,7 +3480,7 @@
       "version": "0.3.19",
       "description": "DSH plugin management panel & marketplace: one-click enable/disable, multi-source market (GitHub/Gitee/custom), static-index market (500+ plugins / 300 skills), skills, suites, and one-click framework upgrade.",
       "stars": 69,
-      "updatedAt": "2026-08-24T06:31:54Z",
+      "updatedAt": "2026-08-24T12:21:19Z",
       "license": "MIT",
       "homepage": "",
       "topics": [
@@ -4363,7 +4363,7 @@
       "ref": "main",
       "version": "0.2.2",
       "description": "Full session management for the DSH web UI: delete (with trash/restore/purge), restore archived sessions, activity stats, continue/pause, fork to a new chat, unread markers, and open log folders. Plus a global context compaction threshold. No harness changes.",
-      "stars": 50,
+      "stars": 49,
       "updatedAt": "2026-08-21T11:16:11Z",
       "license": "MIT",
       "homepage": "",
@@ -4565,68 +4565,74 @@
       "installable": true
     },
     {
-      "id": "dsh-lark-channel",
-      "repo": "omdsh-dev/dsh-lark",
+      "id": "dsh-mcp-panel",
+      "repo": "PerryLink/dsh-mcp-panel",
       "ref": "main",
-      "version": "0.0.7",
-      "description": "Lark/Feishu IM bot channel for DeepSeek Harness: chats drive agents, replies and approvals return as messages and cards",
+      "version": "0.5.1",
+      "description": "MCP management console for the official DeepSeek Harness MCP client: /mcp command with health diagnostics and pipeline trial calls, a Settings MCP tab with server CRUD (append-only profile-patch fragments, approval-gated writes with automatic backups), a tool trial console over the official tool pip",
       "stars": 43,
-      "updatedAt": "2026-08-19T09:02:20Z",
-      "license": "BSD-3-Clause",
-      "homepage": "https://github.com/omdsh-dev/dsh-lark#readme",
+      "updatedAt": "2026-08-23T05:25:36Z",
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/PerryLink/dsh-mcp-panel#readme",
       "topics": [
         "cordis",
+        "deepseek",
         "deepseek-harness",
         "dsh",
         "dsh-plugin",
-        "feishu",
-        "lark"
+        "management",
+        "mcp",
+        "mcp-client",
+        "mcp-console",
+        "observability",
+        "panel"
       ],
-      "category": "integration",
+      "category": "automation",
       "client": null,
       "host": {
         "entry": null,
         "patch": "./cordis.patch.yml"
       },
-      "tarball": "https://codeload.github.com/omdsh-dev/dsh-lark/tar.gz/main",
+      "tarball": "https://codeload.github.com/PerryLink/dsh-mcp-panel/tar.gz/main",
       "npm": {
-        "version": "0.0.7",
-        "tarball": "https://registry.npmjs.org/dsh-lark-channel/-/dsh-lark-channel-0.0.7.tgz"
+        "version": "0.5.1",
+        "tarball": "https://registry.npmjs.org/dsh-mcp-panel/-/dsh-mcp-panel-0.5.1.tgz"
       },
       "installable": true
     },
     {
-      "id": "dsh-recall-unread",
-      "repo": "hg1048596-pixel/dsh-recall-unread",
+      "id": "dsh-omi-voice",
+      "repo": "PolinniZhong/dsh-omi-voice",
       "ref": "main",
-      "version": "1.1.0",
-      "description": "DeepSeek Harness plugin: recall sent-but-unread text messages before the model reads them.",
+      "version": "0.1.2",
+      "description": "DeepSeek Harness 对话内朗读：豆包音质 · 点读/自动朗读 · 豆包 Key 只留在 Omi 引擎（BYOK）",
       "stars": 43,
-      "updatedAt": "2026-08-19T17:10:35Z",
+      "updatedAt": "2026-08-19T02:56:35Z",
       "license": "MIT",
-      "homepage": "https://github.com/hg1048596-pixel/dsh-recall-unread#readme",
+      "homepage": null,
       "topics": [
+        "chinese",
+        "deepseek-harness",
         "dsh-plugin",
-        "dsh-plugin-market",
-        "dsh-plugins"
+        "read-aloud",
+        "text-to-speech",
+        "tts",
+        "voice"
       ],
-      "category": "manager",
+      "category": "other",
       "client": {
         "platform": "web",
         "immediately": false,
         "inject": [],
-        "entry": "./plugin/client.js"
+        "entry": "./client/lib/client.js"
       },
       "host": {
-        "entry": "./plugin/host.js",
+        "entry": "./host/lib/index.js",
         "patch": "./cordis.patch.yml"
       },
-      "tarball": "https://codeload.github.com/hg1048596-pixel/dsh-recall-unread/tar.gz/main",
-      "npm": {
-        "version": "1.1.0",
-        "tarball": "https://registry.npmjs.org/dsh-recall-unread/-/dsh-recall-unread-1.1.0.tgz"
-      },
-      "installable": true
+      "tarball": "https://codeload.github.com/PolinniZhong/dsh-omi-voice/tar.gz/main",
+      "npm": null,
+      "installable": false
     },
     {
       "id": "@modusensus/dsh-mneme",
@@ -4967,6 +4973,33 @@
       "installable": true
     },
     {
+      "id": "@leetoners/dsh-ui-subagent-monitor",
+      "repo": "Mombrane/dsh-subagent-monitor",
+      "ref": "master",
+      "version": "0.3.0",
+      "description": "DSH web extension: a live subagent run monitor with a sidebar trigger and a floating card panel",
+      "stars": 18,
+      "updatedAt": "2026-08-24T12:21:39Z",
+      "license": "MIT",
+      "homepage": "https://github.com/Mombrane/dsh-subagent-monitor#readme",
+      "topics": [
+        "deepseek-harness",
+        "dsh-plugin"
+      ],
+      "category": "ui-enhancement",
+      "client": null,
+      "host": {
+        "entry": null,
+        "patch": "./cordis.patch.yml"
+      },
+      "tarball": "https://codeload.github.com/Mombrane/dsh-subagent-monitor/tar.gz/master",
+      "npm": {
+        "version": "0.2.0",
+        "tarball": "https://registry.npmjs.org/@leetoners/dsh-ui-subagent-monitor/-/dsh-ui-subagent-monitor-0.2.0.tgz"
+      },
+      "installable": true
+    },
+    {
       "id": "dsh-any-background",
       "repo": "Tkingxiao/dsh-any-background",
       "ref": "main",
@@ -5067,10 +5100,10 @@
       "id": "@kubor/dsh-bloom-theme",
       "repo": "webkubor/dsh-bloom-theme",
       "ref": "main",
-      "version": "0.8.5",
+      "version": "0.8.6",
       "description": "Bloom for DSH — 玻璃+莫兰迪主题。8 套 OKLCH 配色（雾蓝/丹红/花瓣/涟漪/鼠尾草/暖石/青金/琥珀），明暗自适应；磨砂玻璃面板默认常开；微动效 + 版本/更新指示。零依赖、TypeScript、WCAG AA。",
       "stars": 11,
-      "updatedAt": "2026-08-24T12:05:54Z",
+      "updatedAt": "2026-08-24T12:24:31Z",
       "license": "MIT",
       "homepage": "https://github.com/webkubor/dsh-bloom-theme#readme",
       "topics": [
@@ -5095,8 +5128,8 @@
       },
       "tarball": "https://codeload.github.com/webkubor/dsh-bloom-theme/tar.gz/main",
       "npm": {
-        "version": "0.8.5",
-        "tarball": "https://registry.npmjs.org/@kubor/dsh-bloom-theme/-/dsh-bloom-theme-0.8.5.tgz"
+        "version": "0.8.6",
+        "tarball": "https://registry.npmjs.org/@kubor/dsh-bloom-theme/-/dsh-bloom-theme-0.8.6.tgz"
       },
       "installable": true
     },
@@ -5263,42 +5296,6 @@
       "installable": true
     },
     {
-      "id": "@kenz1117/dsh-ui-usage-billing",
-      "repo": "kenz1117/dsh-ui-usage-billing",
-      "ref": "main",
-      "version": "0.9.17",
-      "description": "Usage billing dashboard for DeepSeek Harness: sidebar cost metrics plus a full dashboard modal, priced from a current multi-provider catalog with real usage aggregated from session logs.",
-      "stars": 9,
-      "updatedAt": "2026-08-24T10:16:25Z",
-      "license": "MIT",
-      "homepage": "https://www.npmjs.com/package/@kenz1117/dsh-ui-usage-billing",
-      "topics": [
-        "billing",
-        "dashboard",
-        "deepseek-harness",
-        "deepseek-harness-plugins",
-        "dsh",
-        "dsh-bundle",
-        "dsh-plugin",
-        "dsh-plugins",
-        "llm",
-        "plugin-marketplace",
-        "usage-billing"
-      ],
-      "category": "manager",
-      "client": null,
-      "host": {
-        "entry": null,
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/kenz1117/dsh-ui-usage-billing/tar.gz/main",
-      "npm": {
-        "version": "0.9.17",
-        "tarball": "https://registry.npmjs.org/@kenz1117/dsh-ui-usage-billing/-/dsh-ui-usage-billing-0.9.17.tgz"
-      },
-      "installable": true
-    },
-    {
       "id": "dsh-ears",
       "repo": "WizisCool/dsh-ears",
       "ref": "master",
@@ -5396,40 +5393,6 @@
       "installable": true
     },
     {
-      "id": "dsh-ui-tweaks",
-      "repo": "wlj521/dsh-ui-tweaks",
-      "ref": "main",
-      "version": "0.10.3",
-      "description": "DSH web plugin: live-tune the conversation UI — message font size (px input), markdown table style (Claude Desktop look), dialog width (default / wide), an optional conversation timeline rail, a GitBar (branch / diff pills inside the composer tool row, with branch management, per-file diff, and comm",
-      "stars": 9,
-      "updatedAt": "2026-08-24T10:25:48Z",
-      "license": "MIT",
-      "homepage": "",
-      "topics": [
-        "deepseek-harness",
-        "deepseek-harness-plugin",
-        "deepseek-harness-plugins",
-        "dsh",
-        "dsh-bundle",
-        "dsh-plugin",
-        "dsh-plugin-market",
-        "dsh-plugins",
-        "dsh-ui-tweaks"
-      ],
-      "category": "manager",
-      "client": null,
-      "host": {
-        "entry": null,
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/wlj521/dsh-ui-tweaks/tar.gz/main",
-      "npm": {
-        "version": "0.10.3",
-        "tarball": "https://registry.npmjs.org/dsh-ui-tweaks/-/dsh-ui-tweaks-0.10.3.tgz"
-      },
-      "installable": true
-    },
-    {
       "id": "dsh-usage-billing",
       "repo": "940842546/dsh-usage-billing",
       "ref": "main",
@@ -5503,33 +5466,29 @@
       "installable": true
     },
     {
-      "id": "dsh-codex-timeline",
-      "repo": "Wine-Red/dsh-codex-timeline",
-      "ref": "main",
-      "version": "0.5.1",
-      "description": "Codex-style turn timeline and local conversation search for DeepSeek Harness Web",
+      "id": "dsh-desktop-safe-market",
+      "repo": "bruc3van/dsh-desktop-safe-market",
+      "ref": "master",
+      "version": "0.2.16",
+      "description": "A safety-first plugin marketplace for the DeepSeek Harness web GUI: a curated community shortlist, and an install that starts with a security review",
       "stars": 8,
-      "updatedAt": "2026-08-24T10:27:44Z",
+      "updatedAt": "2026-08-24T12:17:33Z",
       "license": "MIT",
-      "homepage": "https://github.com/Wine-Red/dsh-codex-timeline#readme",
+      "homepage": "https://github.com/bruc3van/dsh-desktop-safe-market#readme",
       "topics": [
-        "conversation",
-        "deepseek",
-        "deepseek-harness",
         "dsh-plugin",
-        "timeline",
-        "web-ui"
+        "dsh-plugin-market"
       ],
-      "category": "other",
+      "category": "safety",
       "client": null,
       "host": {
         "entry": null,
         "patch": "./cordis.patch.yml"
       },
-      "tarball": "https://codeload.github.com/Wine-Red/dsh-codex-timeline/tar.gz/main",
+      "tarball": "https://codeload.github.com/bruc3van/dsh-desktop-safe-market/tar.gz/master",
       "npm": {
-        "version": "0.5.1",
-        "tarball": "https://registry.npmjs.org/dsh-codex-timeline/-/dsh-codex-timeline-0.5.1.tgz"
+        "version": "0.2.16",
+        "tarball": "https://registry.npmjs.org/dsh-desktop-safe-market/-/dsh-desktop-safe-market-0.2.16.tgz"
       },
       "installable": true
     },
@@ -5565,33 +5524,6 @@
       "npm": {
         "version": "0.11.0",
         "tarball": "https://registry.npmjs.org/dsh-archived-chats/-/dsh-archived-chats-0.11.0.tgz"
-      },
-      "installable": true
-    },
-    {
-      "id": "dsh-desktop-safe-market",
-      "repo": "bruc3van/dsh-desktop-safe-market",
-      "ref": "master",
-      "version": "0.2.16",
-      "description": "A safety-first plugin marketplace for the DeepSeek Harness web GUI: a curated community shortlist, and an install that starts with a security review",
-      "stars": 7,
-      "updatedAt": "2026-08-24T12:04:05Z",
-      "license": "MIT",
-      "homepage": "https://github.com/bruc3van/dsh-desktop-safe-market#readme",
-      "topics": [
-        "dsh-plugin",
-        "dsh-plugin-market"
-      ],
-      "category": "safety",
-      "client": null,
-      "host": {
-        "entry": null,
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/bruc3van/dsh-desktop-safe-market/tar.gz/master",
-      "npm": {
-        "version": "0.2.16",
-        "tarball": "https://registry.npmjs.org/dsh-desktop-safe-market/-/dsh-desktop-safe-market-0.2.16.tgz"
       },
       "installable": true
     },
@@ -5655,7 +5587,7 @@
       "version": "0.1.1",
       "description": "DeepSeek Harness bash executor plugin that routes eligible commands through rtk (Rust Token Killer) to compress tool output and save tokens. Optional overlay: install, then enable via --patch.",
       "stars": 6,
-      "updatedAt": "2026-08-24T12:13:08Z",
+      "updatedAt": "2026-08-24T12:27:13Z",
       "license": "MIT",
       "homepage": "https://github.com/DeepTrial/dsh-bash-rtk#readme",
       "topics": [
@@ -5676,53 +5608,6 @@
       "npm": {
         "version": "0.1.1",
         "tarball": "https://registry.npmjs.org/@deeptrial/dsh-bash-rtk/-/dsh-bash-rtk-0.1.1.tgz"
-      },
-      "installable": true
-    },
-    {
-      "id": "dsh-layered-memory",
-      "repo": "JunNanLYS/dsh-layered-memory",
-      "ref": "main",
-      "version": "0.8.6",
-      "description": "L0~L3 分层蒸馏记忆插件 for DeepSeek Harness：自动捕获对话（L0）、抽取原子记忆（L1）、整合场景块（L2）、蒸馏核心画像/团队方法论（L3），并在模型步骤前自动召回注入。移植自 MemoryCore (TencentDB Agent Memory) 的管线设计。",
-      "stars": 6,
-      "updatedAt": "2026-08-24T10:14:41Z",
-      "license": "MIT",
-      "homepage": "https://www.npmjs.com/package/dsh-layered-memory",
-      "topics": [
-        "agent-memory",
-        "ai-agent",
-        "context-engineering",
-        "cordis-plugin",
-        "deepseek",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "embeddings",
-        "llm",
-        "long-term-memory",
-        "memory",
-        "rag",
-        "sqlite"
-      ],
-      "category": "agent-skill",
-      "client": {
-        "platform": "web",
-        "immediately": false,
-        "inject": [
-          "@deepseek-ai/dsh-client-runtime",
-          "@deepseek-ai/dsh-client-connection"
-        ],
-        "entry": "./dist/client.js"
-      },
-      "host": {
-        "entry": null,
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/JunNanLYS/dsh-layered-memory/tar.gz/main",
-      "npm": {
-        "version": "0.8.5",
-        "tarball": "https://registry.npmjs.org/dsh-layered-memory/-/dsh-layered-memory-0.8.5.tgz"
       },
       "installable": true
     },
@@ -5753,8 +5638,8 @@
       },
       "tarball": "https://codeload.github.com/Scorp1o117/dsh-tdai-memory/tar.gz/main",
       "npm": {
-        "version": "0.2.13",
-        "tarball": "https://registry.npmjs.org/dsh-tdai-memory/-/dsh-tdai-memory-0.2.13.tgz"
+        "version": "0.2.14",
+        "tarball": "https://registry.npmjs.org/dsh-tdai-memory/-/dsh-tdai-memory-0.2.14.tgz"
       },
       "installable": true
     },
@@ -5785,8 +5670,8 @@
       },
       "tarball": "https://codeload.github.com/Scorp1o117/dsh-tool-vision/tar.gz/main",
       "npm": {
-        "version": "0.6.3",
-        "tarball": "https://registry.npmjs.org/dsh-tool-vision/-/dsh-tool-vision-0.6.3.tgz"
+        "version": "0.6.4",
+        "tarball": "https://registry.npmjs.org/dsh-tool-vision/-/dsh-tool-vision-0.6.4.tgz"
       },
       "installable": true
     },
@@ -5900,44 +5785,6 @@
       "installable": true
     },
     {
-      "id": "dsh-quota-panel",
-      "repo": "wenzetan/dsh-quota-panel",
-      "ref": "main",
-      "version": "0.9.0",
-      "description": "Provider quota/balance widget for the dsh web surface: collapsed glanceable capsule expanding into a Harness-native card with a settings panel (provider visibility / refresh interval / warn thresholds), fed by a loopback Connection RPC channel whose host half proxies each provider with credentials t",
-      "stars": 5,
-      "updatedAt": "2026-08-24T10:27:46Z",
-      "license": "MIT",
-      "homepage": null,
-      "topics": [
-        "balance",
-        "deepseek-harness",
-        "dsh-plugin",
-        "quota"
-      ],
-      "category": "provider",
-      "client": {
-        "platform": "web",
-        "immediately": true,
-        "inject": [
-          "@deepseek-ai/dsh-client-runtime",
-          "@deepseek-ai/dsh-client-connection",
-          "@deepseek-ai/dsh-cordis-client-runner"
-        ],
-        "entry": "./lib/client.js"
-      },
-      "host": {
-        "entry": "./lib/index.js",
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/wenzetan/dsh-quota-panel/tar.gz/main",
-      "npm": {
-        "version": "0.9.0",
-        "tarball": "https://registry.npmjs.org/dsh-quota-panel/-/dsh-quota-panel-0.9.0.tgz"
-      },
-      "installable": true
-    },
-    {
       "id": "@aiworkskills/aws-wechat-article",
       "repo": "aiworkskills/dsh-wechat-article",
       "ref": "main",
@@ -6008,10 +5855,10 @@
       "id": "dsh-factory",
       "repo": "monotykamary/dsh-factory",
       "ref": "main",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Durable dependency-graph task factory for DeepSeek Harness",
       "stars": 4,
-      "updatedAt": "2026-08-24T10:21:37Z",
+      "updatedAt": "2026-08-24T12:21:45Z",
       "license": "MIT",
       "homepage": "https://www.npmjs.com/package/dsh-factory",
       "topics": [
@@ -6033,8 +5880,8 @@
       },
       "tarball": "https://codeload.github.com/monotykamary/dsh-factory/tar.gz/main",
       "npm": {
-        "version": "0.1.0",
-        "tarball": "https://registry.npmjs.org/dsh-factory/-/dsh-factory-0.1.0.tgz"
+        "version": "0.1.1",
+        "tarball": "https://registry.npmjs.org/dsh-factory/-/dsh-factory-0.1.1.tgz"
       },
       "installable": true
     },
@@ -6176,7 +6023,7 @@
       "version": "0.1.0",
       "description": "A terminal UI (TUI) for DeepSeek Harness — an opencode-inspired chat client that boots as a dsh profile app plugin.",
       "stars": 3,
-      "updatedAt": "2026-08-24T10:59:38Z",
+      "updatedAt": "2026-08-24T12:26:31Z",
       "license": "LGPL-2.1",
       "homepage": "",
       "topics": [
@@ -6253,8 +6100,8 @@
       },
       "tarball": "https://codeload.github.com/Scorp1o117/dsh-soul-md/tar.gz/main",
       "npm": {
-        "version": "0.5.8",
-        "tarball": "https://registry.npmjs.org/dsh-soul-md/-/dsh-soul-md-0.5.8.tgz"
+        "version": "0.5.9",
+        "tarball": "https://registry.npmjs.org/dsh-soul-md/-/dsh-soul-md-0.5.9.tgz"
       },
       "installable": true
     },
@@ -6262,10 +6109,10 @@
       "id": "dsh-ultramath",
       "repo": "Andiii208/dsh-ultramath",
       "ref": "main",
-      "version": "0.6.2",
+      "version": "0.6.3",
       "description": "UltraMath 数学建模竞赛多 Agent 求解插件（registry 元数据 + bundle 机制）：把 UltraMath 主控 + 4 角色预设幂等同步到 ~/.dsh/.agent-presets/，并把 SKILL.md、33 篇模型库技能、论文模板（templates/）与审稿脚本（scripts/）同步到 ~/.dsh/skills/ultramath/。纯 node 半侧，无浏览器 UI，不改 DSH 核心源码。",
       "stars": 3,
-      "updatedAt": "2026-08-24T11:09:21Z",
+      "updatedAt": "2026-08-24T12:27:20Z",
       "license": "MIT",
       "homepage": "https://github.com/Andiii208/UltraMath",
       "topics": [
@@ -6325,31 +6172,31 @@
       "installable": false
     },
     {
-      "id": "@edge-sky/dsh-oauth-adapter",
-      "repo": "edge-sky/dsh-oauth-adapter",
+      "id": "@quill507/dsh-auto-approval-llm",
+      "repo": "cuddly-guacamole/dsh-auto-approval-llm",
       "ref": "main",
-      "version": "0.1.1-rc.11",
-      "description": "Web OAuth account surface for official DSH authorization flows",
+      "version": "0.0.8",
+      "description": "LLM-assisted auto approval with timeout fallback for DeepSeek Harness",
       "stars": 2,
-      "updatedAt": "2026-08-24T10:27:53Z",
-      "license": "MIT",
-      "homepage": "",
+      "updatedAt": "2026-08-24T12:16:40Z",
+      "license": "BSD-3-Clause",
+      "homepage": "https://github.com/cuddly-guacamole/dsh-auto-approval-llm#readme",
       "topics": [
-        "dsh-plugin",
-        "dsh-plugin-bundle",
-        "dsh-plugin-market",
-        "dsh-plugins"
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "dsh",
+        "dsh-plugin"
       ],
-      "category": "manager",
+      "category": "other",
       "client": null,
       "host": {
         "entry": null,
         "patch": "./cordis.patch.yml"
       },
-      "tarball": "https://codeload.github.com/edge-sky/dsh-oauth-adapter/tar.gz/main",
+      "tarball": "https://codeload.github.com/cuddly-guacamole/dsh-auto-approval-llm/tar.gz/main",
       "npm": {
-        "version": "0.1.1-rc.11",
-        "tarball": "https://registry.npmjs.org/@edge-sky/dsh-oauth-adapter/-/dsh-oauth-adapter-0.1.1-rc.11.tgz"
+        "version": "0.0.8",
+        "tarball": "https://registry.npmjs.org/@quill507/dsh-auto-approval-llm/-/dsh-auto-approval-llm-0.0.8.tgz"
       },
       "installable": true
     },
@@ -6512,7 +6359,7 @@
       "version": "0.2.2",
       "description": "DeepSeek Harness plugin: per-edit approval with a red/green line diff before write/edit/str_replace_editor — approve once or reject (Claude Code behavior).",
       "stars": 2,
-      "updatedAt": "2026-08-24T12:06:19Z",
+      "updatedAt": "2026-08-24T12:18:43Z",
       "license": "MIT",
       "homepage": null,
       "topics": [
@@ -6670,6 +6517,49 @@
       "installable": true
     },
     {
+      "id": "dsh-session-kit",
+      "repo": "ltxlong/dsh-session-kit",
+      "ref": "main",
+      "version": "0.1.4",
+      "description": "DeepSeek Harness sessions kit.",
+      "stars": 2,
+      "updatedAt": "2026-08-24T12:16:44Z",
+      "license": "MIT",
+      "homepage": "",
+      "topics": [
+        "deepseek",
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugins"
+      ],
+      "category": "other",
+      "client": {
+        "platform": "web",
+        "immediately": false,
+        "inject": [
+          "@deepseek-ai/dsh-client-runtime",
+          "@deepseek-ai/dsh-client-ui-slots",
+          "@deepseek-ai/dsh-client-locale",
+          "@deepseek-ai/dsh-api-remotes",
+          "@deepseek-ai/dsh-client-ui-conversation",
+          "@deepseek-ai/dsh-client-ui-primitives"
+        ],
+        "entry": "./lib/client.js"
+      },
+      "host": {
+        "entry": "./lib/index.js",
+        "patch": "./cordis.patch.yml"
+      },
+      "tarball": "https://codeload.github.com/ltxlong/dsh-session-kit/tar.gz/main",
+      "npm": {
+        "version": "0.1.4",
+        "tarball": "https://registry.npmjs.org/dsh-session-kit/-/dsh-session-kit-0.1.4.tgz"
+      },
+      "installable": true
+    },
+    {
       "id": "dsh-task-notice-board",
       "repo": "SLin-code/dsh-task-notice-board",
       "ref": "main",
@@ -6704,6 +6594,37 @@
       "installable": false
     },
     {
+      "id": "dsh-ui-beautify",
+      "repo": "Zalpha263/dsh-ui-beautify",
+      "ref": "main",
+      "version": "1.13.0",
+      "description": "Customize the DeepSeek Harness web UI: theme color presets (main area, sidebar, message bubble, send button), full-page background image, plus a VSCode-style card layout engine (dock/undock/float panels, unified plugin panel with launcher + tabbed host) — all reversible and light/dark aware.",
+      "stars": 2,
+      "updatedAt": "2026-08-24T12:18:36Z",
+      "license": "MIT",
+      "homepage": "",
+      "topics": [
+        "deepseek",
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugins"
+      ],
+      "category": "ui-theme",
+      "client": {
+        "platform": "web",
+        "immediately": false,
+        "inject": [],
+        "entry": "./lib/client.js"
+      },
+      "host": {
+        "entry": "./lib/index.js",
+        "patch": "./cordis.patch.yml"
+      },
+      "tarball": "https://codeload.github.com/Zalpha263/dsh-ui-beautify/tar.gz/main",
+      "npm": null,
+      "installable": false
+    },
+    {
       "id": "dsh-vscode-workbench",
       "repo": "tingfeng347/dsh-vscode-workbench",
       "ref": "main",
@@ -6733,6 +6654,42 @@
         "tarball": "https://registry.npmjs.org/dsh-vscode-workbench/-/dsh-vscode-workbench-0.1.2.tgz"
       },
       "installable": true
+    },
+    {
+      "id": "evo-subagent",
+      "repo": "ZekaiShi/evo-subagent",
+      "ref": "main",
+      "version": "0.5.0",
+      "description": "Unified DeepSeek Harness plugin: role-based subagent routing + per-agent evolution — prefercmd/memory as knowledge allow/deny lists, so repeated tasks start from proven commands and save tokens",
+      "stars": 2,
+      "updatedAt": "2026-08-24T12:19:31Z",
+      "license": "MIT",
+      "homepage": "https://github.com/ZekaiShi/evo-subagent#readme",
+      "topics": [
+        "agent-plugin",
+        "ai-agent",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "llm-agent",
+        "model-routing",
+        "plugin",
+        "subagent"
+      ],
+      "category": "agent-skill",
+      "client": {
+        "platform": "web",
+        "immediately": true,
+        "inject": [],
+        "entry": "./dsh/client.js"
+      },
+      "host": {
+        "entry": "./index.js",
+        "patch": "./cordis.patch.yml"
+      },
+      "tarball": "https://codeload.github.com/ZekaiShi/evo-subagent/tar.gz/main",
+      "npm": null,
+      "installable": false
     },
     {
       "id": "sidor-ui",
@@ -6825,6 +6782,40 @@
         "patch": "./cordis.patch.yml"
       },
       "tarball": "https://codeload.github.com/ldgeng/dsh-claudecode-tips/tar.gz/master",
+      "npm": null,
+      "installable": false
+    },
+    {
+      "id": "@deepseek-ai/dsh-lark-bridge",
+      "repo": "moyu-good/dsh-lark-bridge",
+      "ref": "main",
+      "version": "0.3.1",
+      "description": "Feishu (Lark) IM bot channel for DeepSeek Harness agents — per-chat sessions, native thinking process, interactive approval cards, WebSocket long connection.",
+      "stars": 1,
+      "updatedAt": "2026-08-24T12:23:52Z",
+      "license": "NOASSERTION",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "bot",
+        "chatbot",
+        "coding-agent",
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "feishu",
+        "lark",
+        "llm",
+        "websocket"
+      ],
+      "category": "integration",
+      "client": null,
+      "host": {
+        "entry": null,
+        "patch": "./cordis.patch.yml"
+      },
+      "tarball": "https://codeload.github.com/moyu-good/dsh-lark-bridge/tar.gz/main",
       "npm": null,
       "installable": false
     },
@@ -6937,41 +6928,6 @@
       "installable": false
     },
     {
-      "id": "@dsh-yzj/bundle",
-      "repo": "GuoxinShan/dsh-yzj",
-      "ref": "main",
-      "version": "0.1.0",
-      "description": "云之家 (Yunzhijia) plugin bundle for DeepSeek Harness: yzj-cli bridge, model-facing tools, robot channel, memory vault, model defaults, and a browser UI (rich tool cards + workspace panel) — monobundle aggregate of the workspace packages",
-      "stars": 1,
-      "updatedAt": "2026-08-24T10:22:29Z",
-      "license": null,
-      "homepage": "",
-      "topics": [
-        "dsh-plugin"
-      ],
-      "category": "agent-skill",
-      "client": {
-        "platform": "web",
-        "immediately": false,
-        "inject": [
-          "@deepseek-ai/dsh-client-runtime",
-          "@deepseek-ai/dsh-client-connection",
-          "@deepseek-ai/dsh-client-ui-layout",
-          "@deepseek-ai/dsh-client-ui-conversation",
-          "@deepseek-ai/dsh-client-ui-input-trigger",
-          "@deepseek-ai/dsh-client-ui-tool"
-        ],
-        "entry": "./lib/client.js"
-      },
-      "host": {
-        "entry": null,
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/GuoxinShan/dsh-yzj/tar.gz/main",
-      "npm": null,
-      "installable": false
-    },
-    {
       "id": "@dshworks/dsh-meter",
       "repo": "dshworks/dsh-meter",
       "ref": "main",
@@ -7020,90 +6976,30 @@
       "installable": true
     },
     {
-      "id": "@etony668/dsh-task-board",
-      "repo": "etony668/dsh-task-board",
+      "id": "@hanxuanliang/dsh-chaos",
+      "repo": "hanxuanliang/dsh-chaos",
       "ref": "main",
-      "version": "0.2.0",
-      "description": "DSH 项目任务看板（CodexFF 移植）：会话「任务看板」视图 + 父子任务树工具与技能 + 本地 JSON 存储",
+      "version": "0.1.2",
+      "description": "Peer multi-Agent collaboration for DeepSeek Harness",
       "stars": 1,
-      "updatedAt": "2026-08-24T10:15:28Z",
+      "updatedAt": "2026-08-24T12:10:30Z",
       "license": "MIT",
-      "homepage": null,
+      "homepage": "https://github.com/hanxuanliang/dsh-chaos#readme",
       "topics": [
         "dsh-plugin"
       ],
-      "category": "ui-enhancement",
+      "category": "agent-skill",
       "client": null,
       "host": {
         "entry": null,
         "patch": "./cordis.patch.yml"
       },
-      "tarball": "https://codeload.github.com/etony668/dsh-task-board/tar.gz/main",
-      "npm": null,
-      "installable": false
-    },
-    {
-      "id": "@hytime/dsh-client-ui-shortcuts",
-      "repo": "hytime/dsh-client-ui-shortcuts",
-      "ref": "main",
-      "version": "0.1.13",
-      "description": "Profile-aware keyboard shortcuts for the DeepSeek Harness Web Client",
-      "stars": 1,
-      "updatedAt": "2026-08-24T10:28:08Z",
-      "license": null,
-      "homepage": "https://github.com/hytime/dsh-client-ui-shortcuts#readme",
-      "topics": [
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "keyboard-shortcuts",
-        "react",
-        "typescript"
-      ],
-      "category": "ui-enhancement",
-      "client": null,
-      "host": {
-        "entry": null,
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/hytime/dsh-client-ui-shortcuts/tar.gz/main",
+      "tarball": "https://codeload.github.com/hanxuanliang/dsh-chaos/tar.gz/main",
       "npm": {
-        "version": "0.1.13",
-        "tarball": "https://registry.npmjs.org/@hytime/dsh-client-ui-shortcuts/-/dsh-client-ui-shortcuts-0.1.13.tgz"
+        "version": "0.1.2",
+        "tarball": "https://registry.npmjs.org/@hanxuanliang/dsh-chaos/-/dsh-chaos-0.1.2.tgz"
       },
       "installable": true
-    },
-    {
-      "id": "@joekytc/dsh-swarm",
-      "repo": "joekytc/dsh-swarm",
-      "ref": "main",
-      "version": "0.1.0",
-      "description": "Multi-role (V/P/W/D/PT/DT), event-sourced task kanban plugin for DSH with R20 orchestration, evidence-gated delivery and wiki-vault sync",
-      "stars": 1,
-      "updatedAt": "2026-08-24T10:20:39Z",
-      "license": "MIT",
-      "homepage": "",
-      "topics": [
-        "agent-orchestration",
-        "ai-agents",
-        "cordis",
-        "deepseek-harness",
-        "dsh-plugin",
-        "event-sourcing",
-        "kanban",
-        "multi-agent",
-        "task-management",
-        "typescript"
-      ],
-      "category": "automation",
-      "client": null,
-      "host": {
-        "entry": null,
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/joekytc/dsh-swarm/tar.gz/main",
-      "npm": null,
-      "installable": false
     },
     {
       "id": "@log.li/dsh-automode",
@@ -7325,10 +7221,10 @@
       "id": "dsh-brainagent",
       "repo": "stas130286-blip/dsh-brainagent",
       "ref": "main",
-      "version": "0.6.1",
+      "version": "0.6.2",
       "description": "BrainAgent — brain-inspired plugin for DeepSeek Harness (dsh): a pipeline of heuristic filters, statistical memory stores and context injections; reward-ledger + UCB1 bandit learning loop (RL-lite)",
       "stars": 1,
-      "updatedAt": "2026-08-24T12:01:29Z",
+      "updatedAt": "2026-08-24T12:25:35Z",
       "license": "NOASSERTION",
       "homepage": null,
       "topics": [
@@ -7418,6 +7314,29 @@
         "patch": "./cordis.patch.yml"
       },
       "tarball": "https://codeload.github.com/SLin-code/dsh-custom-skin/tar.gz/main",
+      "npm": null,
+      "installable": false
+    },
+    {
+      "id": "dsh-evolve-in-git",
+      "repo": "Kytolly/dsh-evolve-in-git",
+      "ref": "main",
+      "version": "0.1.2",
+      "description": "Git-backed long-term memory and evolution plugin for DeepSeek Harness",
+      "stars": 1,
+      "updatedAt": "2026-08-24T12:22:41Z",
+      "license": "MIT",
+      "homepage": "https://github.com/Kytolly/dsh-evolve-in-git#readme",
+      "topics": [
+        "dsh-plugin"
+      ],
+      "category": "agent-skill",
+      "client": null,
+      "host": {
+        "entry": null,
+        "patch": "./cordis.patch.yml"
+      },
+      "tarball": "https://codeload.github.com/Kytolly/dsh-evolve-in-git/tar.gz/main",
       "npm": null,
       "installable": false
     },
@@ -7555,35 +7474,6 @@
       "installable": true
     },
     {
-      "id": "dsh-plugin-mlquant-benchmark",
-      "repo": "initial-d/dsh-plugin-mlquant-benchmark",
-      "ref": "main",
-      "version": "0.1.0",
-      "description": "DeepSeek Harness tools for reproducing the ml-quant-trading protocol v1 benchmark.",
-      "stars": 1,
-      "updatedAt": "2026-08-24T10:24:03Z",
-      "license": "MIT",
-      "homepage": null,
-      "topics": [
-        "benchmark",
-        "deepseek-harness",
-        "dsh-plugin",
-        "mlquant",
-        "pytorch",
-        "quantitative-finance",
-        "reproducibility"
-      ],
-      "category": "other",
-      "client": null,
-      "host": {
-        "entry": "./src/index.js",
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/initial-d/dsh-plugin-mlquant-benchmark/tar.gz/main",
-      "npm": null,
-      "installable": false
-    },
-    {
       "id": "dsh-safe-plugin-manager",
       "repo": "AI-Scarlett/dsh-safe-plugin-manager",
       "ref": "main",
@@ -7626,10 +7516,10 @@
       "id": "dsh-session-assistant",
       "repo": "AlexKaiqi/dsh-session-assistant",
       "ref": "main",
-      "version": "0.4.1",
+      "version": "0.4.5",
       "description": "Session-scoped full-duplex voice assistant with tool-controlled drafting and Agent submission for DeepSeek Harness.",
       "stars": 1,
-      "updatedAt": "2026-08-24T11:05:30Z",
+      "updatedAt": "2026-08-24T12:17:30Z",
       "license": "MIT",
       "homepage": "https://github.com/AlexKaiqi/dsh-session-assistant#readme",
       "topics": [
@@ -7658,8 +7548,8 @@
       },
       "tarball": "https://codeload.github.com/AlexKaiqi/dsh-session-assistant/tar.gz/main",
       "npm": {
-        "version": "0.4.4",
-        "tarball": "https://registry.npmjs.org/dsh-session-assistant/-/dsh-session-assistant-0.4.4.tgz"
+        "version": "0.4.5",
+        "tarball": "https://registry.npmjs.org/dsh-session-assistant/-/dsh-session-assistant-0.4.5.tgz"
       },
       "installable": true
     },
@@ -7696,7 +7586,7 @@
       "version": "0.1.2-beta",
       "description": "设置内独立栏的本地 Token 热图：周/月/季度/年视图 + 日周月总统计 + 按模型/供应商 Top5",
       "stars": 1,
-      "updatedAt": "2026-08-24T12:14:29Z",
+      "updatedAt": "2026-08-24T12:20:54Z",
       "license": "MIT",
       "homepage": "",
       "topics": [
@@ -7816,7 +7706,7 @@
       "version": "0.2.0",
       "description": "驯兽师（驯兽场）：把人类语言翻译给智能体的 DSH 插件——注入「开智」内核（第一性原理 + 需求剖析 + 极简沟通 + 最少 token），左上角悬浮萌宠，设置页可配内核与开关。",
       "stars": 1,
-      "updatedAt": "2026-08-24T11:21:19Z",
+      "updatedAt": "2026-08-24T12:22:31Z",
       "license": "MIT",
       "homepage": "https://github.com/EternalNight996/dsh-ui-three-body",
       "topics": [
@@ -7892,46 +7782,6 @@
       "npm": {
         "version": "0.1.19",
         "tarball": "https://registry.npmjs.org/dsh-vscode-mode/-/dsh-vscode-mode-0.1.19.tgz"
-      },
-      "installable": true
-    },
-    {
-      "id": "dshhub-market",
-      "repo": "dshhub-co/dshhub-market",
-      "ref": "main",
-      "version": "0.8.32",
-      "description": "DeepSeek Harness 口令插件市场客户端：输码解锁插件，连接创作者与买家（DSHHub.co 驱动，fork of dsh-market）。",
-      "stars": 1,
-      "updatedAt": "2026-08-24T10:16:50Z",
-      "license": "MIT",
-      "homepage": "https://www.dshhub.co",
-      "topics": [
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "marketplace"
-      ],
-      "category": "manager",
-      "client": {
-        "platform": "web",
-        "immediately": false,
-        "inject": [
-          "@deepseek-ai/dsh-client-connection",
-          "@deepseek-ai/dsh-client-runtime",
-          "@deepseek-ai/dsh-client-locale",
-          "@deepseek-ai/dsh-client-ui-settings",
-          "@deepseek-ai/dsh-client-ui-theme"
-        ],
-        "entry": "./client/client.js"
-      },
-      "host": {
-        "entry": null,
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/dshhub-co/dshhub-market/tar.gz/main",
-      "npm": {
-        "version": "0.8.34",
-        "tarball": "https://registry.npmjs.org/dshhub-market/-/dshhub-market-0.8.34.tgz"
       },
       "installable": true
     },
@@ -8033,11 +7883,20 @@
       "homepage": "https://github.com/dshworks/dsh-ego-browser#readme",
       "topics": [
         "agent-memory",
+        "ai-agents",
         "browser-automation",
+        "chromium",
+        "cordis",
+        "deepseek",
         "deepseek-harness",
         "dsh",
         "dsh-plugin",
-        "ego-lite"
+        "ego-browser",
+        "ego-lite",
+        "llm-tools",
+        "nodejs",
+        "site-skills",
+        "web-automation"
       ],
       "category": "automation",
       "client": null,
@@ -8048,32 +7907,6 @@
       "tarball": "https://codeload.github.com/dshworks/dsh-ego-browser/tar.gz/main",
       "npm": null,
       "installable": false
-    },
-    {
-      "id": "@hanxuanliang/dsh-chaos",
-      "repo": "hanxuanliang/dsh-chaos",
-      "ref": "main",
-      "version": "0.1.2",
-      "description": "Peer multi-Agent collaboration for DeepSeek Harness",
-      "stars": 0,
-      "updatedAt": "2026-08-24T12:10:30Z",
-      "license": "MIT",
-      "homepage": "https://github.com/hanxuanliang/dsh-chaos#readme",
-      "topics": [
-        "dsh-plugin"
-      ],
-      "category": "agent-skill",
-      "client": null,
-      "host": {
-        "entry": null,
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/hanxuanliang/dsh-chaos/tar.gz/main",
-      "npm": {
-        "version": "0.1.2",
-        "tarball": "https://registry.npmjs.org/@hanxuanliang/dsh-chaos/-/dsh-chaos-0.1.2.tgz"
-      },
-      "installable": true
     },
     {
       "id": "@linxin666/dsh-client-ui-skin-matrix",
@@ -8119,7 +7952,7 @@
       "version": "0.9.0",
       "description": "Ming 智能助手 - 用自然语言一键调用 Harness 原生能力，真正完成任务并产出文件",
       "stars": 0,
-      "updatedAt": "2026-08-24T11:54:59Z",
+      "updatedAt": "2026-08-24T12:20:53Z",
       "license": "MIT",
       "homepage": "https://github.com/YuemingHub/Ming-Capability-Pack#readme",
       "topics": [
@@ -8142,10 +7975,10 @@
       "id": "@syncended/dsh-automations",
       "repo": "syncended/deepseek-harness-automations",
       "ref": "trunk",
-      "version": "0.8.0",
+      "version": "0.8.1",
       "description": "Durable cron automations for DeepSeek Harness",
       "stars": 0,
-      "updatedAt": "2026-08-24T11:07:47Z",
+      "updatedAt": "2026-08-24T12:23:21Z",
       "license": "MIT",
       "homepage": "https://github.com/syncended/deepseek-harness-automations#readme",
       "topics": [
@@ -8170,8 +8003,8 @@
       },
       "tarball": "https://codeload.github.com/syncended/deepseek-harness-automations/tar.gz/trunk",
       "npm": {
-        "version": "0.8.0",
-        "tarball": "https://registry.npmjs.org/@syncended/dsh-automations/-/dsh-automations-0.8.0.tgz"
+        "version": "0.8.1",
+        "tarball": "https://registry.npmjs.org/@syncended/dsh-automations/-/dsh-automations-0.8.1.tgz"
       },
       "installable": true
     },
@@ -8306,34 +8139,6 @@
       "installable": true
     },
     {
-      "id": "dsh-activity-pane",
-      "repo": "ccll/dsh-activity-pane",
-      "ref": "main",
-      "version": "0.1.0",
-      "description": "DeepSeek Harness Web 活动会话总览窗格：将正在运行与等待用户行动的会话集中到一个可贴边、可滚动的左侧窗格",
-      "stars": 0,
-      "updatedAt": "2026-08-24T10:15:41Z",
-      "license": "NOASSERTION",
-      "homepage": null,
-      "topics": [
-        "dsh-plugin"
-      ],
-      "category": "other",
-      "client": {
-        "platform": "web",
-        "immediately": false,
-        "inject": [],
-        "entry": "./.dsh-plugin/client.js"
-      },
-      "host": {
-        "entry": "./.dsh-plugin/index.mjs",
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/ccll/dsh-activity-pane/tar.gz/main",
-      "npm": null,
-      "installable": false
-    },
-    {
       "id": "dsh-asciinema",
       "repo": "988hj7tczd-oss/dsh-asciinema",
       "ref": "main",
@@ -8428,8 +8233,11 @@
         "patch": "./cordis.patch.yml"
       },
       "tarball": "https://codeload.github.com/soarGuo/dsh-auto-vision/tar.gz/main",
-      "npm": null,
-      "installable": false
+      "npm": {
+        "version": "0.1.0",
+        "tarball": "https://registry.npmjs.org/dsh-auto-image/-/dsh-auto-image-0.1.0.tgz"
+      },
+      "installable": true
     },
     {
       "id": "dsh-auto-review-plugin",
@@ -8458,6 +8266,34 @@
       "installable": true
     },
     {
+      "id": "dsh-build-plugin",
+      "repo": "AI-Scarlett/build-dsh-plugin",
+      "ref": "main",
+      "version": "0.3.2",
+      "description": "DSH Skill adapter for the build-dsh-plugin development workflow",
+      "stars": 0,
+      "updatedAt": "2026-08-24T12:26:28Z",
+      "license": "MIT",
+      "homepage": "https://dsh.store/build/",
+      "topics": [
+        "agent-skill",
+        "codex-skill",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "plugin-development"
+      ],
+      "category": "automation",
+      "client": null,
+      "host": {
+        "entry": "./src/index.mjs",
+        "patch": "./cordis.patch.yml"
+      },
+      "tarball": "https://codeload.github.com/AI-Scarlett/build-dsh-plugin/tar.gz/main",
+      "npm": null,
+      "installable": false
+    },
+    {
       "id": "dsh-cbx-orch",
       "repo": "zerosloney/dsh-cbx-orch",
       "ref": "main",
@@ -8483,6 +8319,38 @@
         "tarball": "https://registry.npmjs.org/dsh-cbx-orch/-/dsh-cbx-orch-0.4.2.tgz"
       },
       "installable": true
+    },
+    {
+      "id": "dsh-chatbi",
+      "repo": "Huauauaa/dsh-chatbi",
+      "ref": "main",
+      "version": "0.1.0",
+      "description": "Self-contained DeepSeek Harness plugin for database, MCP, API, and SQL tool management.",
+      "stars": 0,
+      "updatedAt": "2026-08-24T10:45:46Z",
+      "license": "MIT",
+      "homepage": "",
+      "topics": [
+        "dsh-plugin"
+      ],
+      "category": "other",
+      "client": {
+        "platform": "web",
+        "immediately": true,
+        "inject": [
+          "@deepseek-ai/dsh-client-runtime",
+          "@deepseek-ai/dsh-client-ui-settings",
+          "@deepseek-ai/dsh-client-connection"
+        ],
+        "entry": "./lib/client.js"
+      },
+      "host": {
+        "entry": "./lib/index.js",
+        "patch": "./cordis.patch.yml"
+      },
+      "tarball": "https://codeload.github.com/Huauauaa/dsh-chatbi/tar.gz/main",
+      "npm": null,
+      "installable": false
     },
     {
       "id": "dsh-codex-sidebar",
@@ -8535,13 +8403,36 @@
       "installable": false
     },
     {
+      "id": "dsh-context-mode",
+      "repo": "pharaohnie/dsh-context-mode",
+      "ref": "main",
+      "version": "0.1.0",
+      "description": "DSH context-window relief: knowledge base (ctx_index/search), routing enforcement (deny flood tools), and session continuity (post-compaction restore).",
+      "stars": 0,
+      "updatedAt": "2026-08-24T12:22:48Z",
+      "license": null,
+      "homepage": null,
+      "topics": [
+        "dsh-plugin"
+      ],
+      "category": "ui-enhancement",
+      "client": null,
+      "host": {
+        "entry": "./src/index.ts",
+        "patch": "./cordis.patch.yml"
+      },
+      "tarball": "https://codeload.github.com/pharaohnie/dsh-context-mode/tar.gz/main",
+      "npm": null,
+      "installable": false
+    },
+    {
       "id": "dsh-cordis-devtools",
       "repo": "wang-kaopu/dsh-cordis-devtools",
       "ref": "main",
       "version": "0.5.0",
       "description": "Runtime diagnostics and verification with opt-in waterfall profiling for DeepSeek Harness / Cordis.",
       "stars": 0,
-      "updatedAt": "2026-08-24T12:15:07Z",
+      "updatedAt": "2026-08-24T12:27:06Z",
       "license": "NOASSERTION",
       "homepage": "https://github.com/wang-kaopu/dsh-cordis-devtools",
       "topics": [
@@ -8661,6 +8552,36 @@
       "installable": true
     },
     {
+      "id": "dsh-desktop-kit",
+      "repo": "MDR-EX1000/dsh-desktop-kit",
+      "ref": "main",
+      "version": "0.2.0",
+      "description": "Self-owned desktop shell for DeepSeek Harness (DSH): a small plugin that opens the web surface in a native Tauri window — real macOS fullscreen (decorated window), single instance, window-close-shuts-harness lifecycle. No tray, no bundled Chromium.",
+      "stars": 0,
+      "updatedAt": "2026-08-24T12:18:40Z",
+      "license": null,
+      "homepage": "https://github.com/MDR-EX1000/dsh-desktop-kit#readme",
+      "topics": [
+        "dsh-plugin"
+      ],
+      "category": "other",
+      "client": {
+        "platform": "web",
+        "immediately": false,
+        "inject": [
+          "@deepseek-ai/dsh-client-runtime"
+        ],
+        "entry": "./lib/client.js"
+      },
+      "host": {
+        "entry": "./lib/index.js",
+        "patch": "./cordis.patch.yml"
+      },
+      "tarball": "https://codeload.github.com/MDR-EX1000/dsh-desktop-kit/tar.gz/main",
+      "npm": null,
+      "installable": false
+    },
+    {
       "id": "dsh-enterprise-ops",
       "repo": "01men/ybkk-AIOS",
       "ref": "main",
@@ -8687,35 +8608,66 @@
       "installable": false
     },
     {
-      "id": "dsh-experience-plugin",
-      "repo": "SouleyMoni1/dsh-experience-plugin",
-      "ref": "main",
-      "version": "0.4.0",
-      "description": "DSH plugin: model reasoning levels plus CLI request mimic, with two collapsible official plugin configuration cards.",
+      "id": "dsh-files-git",
+      "repo": "leanderli/dsh-files-git",
+      "ref": "master",
+      "version": "0.1.0",
+      "description": "Workspace files & git panel for the dsh Web UI: browse workspace files + git operations (fetch/pull/commit/push)",
       "stars": 0,
-      "updatedAt": "2026-08-24T10:19:16Z",
+      "updatedAt": "2026-08-24T12:14:50Z",
       "license": "MIT",
-      "homepage": "",
+      "homepage": "https://github.com/leanderli/dsh-files-git#readme",
       "topics": [
-        "deepseek",
-        "deepseek-harness-plugin",
-        "deepseek-harness-plugins",
+        "deepseek-harness",
+        "dsh-plugin"
+      ],
+      "category": "other",
+      "client": {
+        "platform": "web",
+        "immediately": false,
+        "inject": [],
+        "entry": "./lib/client.js"
+      },
+      "host": {
+        "entry": "./lib/index.js",
+        "patch": "cordis.patch.yml"
+      },
+      "tarball": "https://codeload.github.com/leanderli/dsh-files-git/tar.gz/master",
+      "npm": null,
+      "installable": false
+    },
+    {
+      "id": "dsh-harness-updater",
+      "repo": "leonardoxr/dsh-harness-updater",
+      "ref": "main",
+      "version": "0.1.0",
+      "description": "Detect Claude Code and Codex CLI updates, prompt the user, and run the right channel-specific upgrade",
+      "stars": 0,
+      "updatedAt": "2026-08-24T12:16:56Z",
+      "license": "MIT",
+      "homepage": null,
+      "topics": [
+        "anthropic",
+        "claude-code",
+        "codex",
+        "cordis",
+        "deepseek-harness",
         "dsh",
         "dsh-plugin",
-        "dsh-plugins"
+        "dsh-web",
+        "dsh-web-ui",
+        "openai",
+        "updater"
       ],
-      "category": "manager",
+      "category": "other",
       "client": null,
       "host": {
         "entry": null,
         "patch": "./cordis.patch.yml"
       },
-      "tarball": "https://codeload.github.com/SouleyMoni1/dsh-experience-plugin/tar.gz/main",
-      "npm": {
-        "version": "0.4.0",
-        "tarball": "https://registry.npmjs.org/dsh-experience-plugin/-/dsh-experience-plugin-0.4.0.tgz"
-      },
-      "installable": true
+      "tarball": "https://codeload.github.com/leonardoxr/dsh-harness-updater/tar.gz/main",
+      "npm": null,
+      "installable": false
     },
     {
       "id": "dsh-image-preview",
@@ -9080,6 +9032,46 @@
       "installable": true
     },
     {
+      "id": "dsh-model-pro",
+      "repo": "wqy8593521/dsh-model-pro",
+      "ref": "main",
+      "version": "1.1.7",
+      "description": "Model Pro — DSH plugin for llm-pi-ai provider lifecycle: create/edit, custom headers, enable/disable with uninstall-restore safety, smart routing, composites, observability, and per-model connectivity tests",
+      "stars": 0,
+      "updatedAt": "2026-08-24T12:18:55Z",
+      "license": "MIT",
+      "homepage": "https://github.com/wqy8593521/dsh-model-pro#readme",
+      "topics": [
+        "cordis",
+        "deepseek-harness",
+        "dsh-plugin",
+        "llm-pi-ai",
+        "model-provider"
+      ],
+      "category": "safety",
+      "client": {
+        "platform": "web",
+        "immediately": false,
+        "inject": [
+          "@deepseek-ai/dsh-client-runtime",
+          "@deepseek-ai/dsh-client-ui-slots",
+          "@deepseek-ai/dsh-client-locale",
+          "@deepseek-ai/dsh-api-gateway"
+        ],
+        "entry": "./dist/client.js"
+      },
+      "host": {
+        "entry": "./dist/host.js",
+        "patch": "./cordis.patch.yml"
+      },
+      "tarball": "https://codeload.github.com/wqy8593521/dsh-model-pro/tar.gz/main",
+      "npm": {
+        "version": "1.1.7",
+        "tarball": "https://registry.npmjs.org/dsh-model-pro/-/dsh-model-pro-1.1.7.tgz"
+      },
+      "installable": true
+    },
+    {
       "id": "dsh-more-models-thinking-level",
       "repo": "Henta111/dsh-more-models-thinking-level",
       "ref": "main",
@@ -9368,38 +9360,6 @@
       "installable": false
     },
     {
-      "id": "dsh-plugin-pin-session",
-      "repo": "NattoCB/dsh-plugin-pin-session",
-      "ref": "main",
-      "version": "0.1.10",
-      "description": "Pin sessions: adds Pin/Unpin to the sidebar session-row ... menu and a collapsible Pinned Sessions group above the session list.",
-      "stars": 0,
-      "updatedAt": "2026-08-24T10:26:08Z",
-      "license": "MIT",
-      "homepage": null,
-      "topics": [
-        "dsh-plugin",
-        "sessions",
-        "sidebar"
-      ],
-      "category": "ui-enhancement",
-      "client": {
-        "platform": "web",
-        "immediately": false,
-        "inject": [
-          "@deepseek-ai/dsh-client-runtime"
-        ],
-        "entry": "./client/client.js"
-      },
-      "host": {
-        "entry": "./src/index.js",
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/NattoCB/dsh-plugin-pin-session/tar.gz/main",
-      "npm": null,
-      "installable": false
-    },
-    {
       "id": "dsh-pr-description",
       "repo": "988hj7tczd-oss/dsh-pr-description",
       "ref": "main",
@@ -9456,35 +9416,6 @@
       "npm": {
         "version": "0.1.0",
         "tarball": "https://registry.npmjs.org/dsh-receipts/-/dsh-receipts-0.1.0.tgz"
-      },
-      "installable": true
-    },
-    {
-      "id": "dsh-ringcentral",
-      "repo": "ringclaw/dsh-ringcentral",
-      "ref": "main",
-      "version": "0.3.16",
-      "description": "RingCentral Team Messaging IM channel plugin for deepseek-harness (dsh)",
-      "stars": 0,
-      "updatedAt": "2026-08-24T10:17:52Z",
-      "license": "MIT",
-      "homepage": "",
-      "topics": [
-        "dsh",
-        "dsh-plugin",
-        "dsh-plugins",
-        "ringcentral"
-      ],
-      "category": "integration",
-      "client": null,
-      "host": {
-        "entry": null,
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/ringclaw/dsh-ringcentral/tar.gz/main",
-      "npm": {
-        "version": "0.3.16",
-        "tarball": "https://registry.npmjs.org/dsh-ringcentral/-/dsh-ringcentral-0.3.16.tgz"
       },
       "installable": true
     },
@@ -9765,8 +9696,11 @@
         "patch": "./cordis.patch.yml"
       },
       "tarball": "https://codeload.github.com/xiong18166089606-design/dsh-trade-assistant/tar.gz/main",
-      "npm": null,
-      "installable": false
+      "npm": {
+        "version": "0.1.0",
+        "tarball": "https://registry.npmjs.org/dsh-trade-assistant/-/dsh-trade-assistant-0.1.0.tgz"
+      },
+      "installable": true
     },
     {
       "id": "dsh-ui-task-notify",
