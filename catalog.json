@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T22:51:28.986Z",
+  "generatedAt": "2026-09-22T22:52:46.924Z",
   "source": {
     "topic": "dsh-plugin",
     "scanned": 549,
-    "accepted": 304,
-    "installable": 221
+    "accepted": 305,
+    "installable": 222
   },
   "plugins": [
     {
@@ -309,7 +309,7 @@
       "ref": "main",
       "version": "0.21.0",
       "description": "OpenRouter for tools - 2,896 agent-friendly tools, pay for the usage, not subscription",
-      "stars": 2182,
+      "stars": 2185,
       "updatedAt": "2026-09-22T19:22:48Z",
       "license": "NOASSERTION",
       "homepage": "https://treg.to",
@@ -7042,6 +7042,61 @@
       "installable": true
     },
     {
+      "id": "@falling-ts/dsh-force-compact",
+      "repo": "falling-ts/dsh-force-compact",
+      "ref": "main",
+      "version": "0.6.0",
+      "description": "DSH Cordis plugin: hooks the core model-request seam (agent/pre-step + agent/request) to force-compact a session's context and disable thinking per the \"强制压缩配置\" settings namespace (disableThinking, autoThresholdTokens, retainLatestTokens, turnEndForceCompactionEnabled). When the threshold fires (or ",
+      "stars": 10,
+      "updatedAt": "2026-09-22T22:51:46Z",
+      "license": "MIT",
+      "homepage": "",
+      "topics": [
+        "context-compaction",
+        "cordis",
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugin"
+      ],
+      "keywords": [
+        "dsh",
+        "cordis",
+        "compaction",
+        "auto-compact",
+        "session",
+        "settings",
+        "force-compact",
+        "thinking",
+        "reasoningEffort",
+        "agent/pre-step",
+        "agent/request",
+        "slash-command",
+        "turn-end",
+        "earliest-ratio"
+      ],
+      "category": "manager",
+      "client": {
+        "platform": "web",
+        "immediately": false,
+        "inject": [
+          "@deepseek-ai/dsh-client-ui-settings",
+          "@deepseek-ai/dsh-client-locale",
+          "@deepseek-ai/dsh-client-store"
+        ],
+        "entry": "./web/client.js"
+      },
+      "host": {
+        "entry": "./index.js",
+        "patch": "./cordis.patch.yml"
+      },
+      "tarball": "https://codeload.github.com/falling-ts/dsh-force-compact/tar.gz/main",
+      "npm": {
+        "version": "0.5.0",
+        "tarball": "https://registry.npmjs.org/@falling-ts/dsh-force-compact/-/dsh-force-compact-0.5.0.tgz"
+      },
+      "installable": true
+    },
+    {
       "id": "@tonydua/dsh-web-search-exa",
       "repo": "TonyDua/dsh-web-search-exa",
       "ref": "main",
@@ -8491,6 +8546,53 @@
       "npm": {
         "version": "1.3.0",
         "tarball": "https://registry.npmjs.org/roblox-devforum-mcp/-/roblox-devforum-mcp-1.3.0.tgz"
+      },
+      "installable": true
+    },
+    {
+      "id": "@falling-ts/dsh-web-ding",
+      "repo": "falling-ts/dsh-web-ding",
+      "ref": "main",
+      "version": "0.5.0",
+      "description": "DSH Cordis plugin: announces the moment an agent finishes (turns idle) by pushing a 'done' signal from the Host half into the falling-ts-web-ding settings namespace, which the browser client half mirrors live and answers with a synthesized 'ding' tone via the Web Audio API. The tone is played ENTIRE",
+      "stars": 2,
+      "updatedAt": "2026-09-22T22:52:26Z",
+      "license": "MIT",
+      "homepage": "",
+      "topics": [
+        "deepseek-harness",
+        "dsh-plugin"
+      ],
+      "keywords": [
+        "dsh",
+        "cordis",
+        "agent",
+        "turn-end",
+        "idle",
+        "notification",
+        "ding",
+        "web-audio",
+        "sound",
+        "client"
+      ],
+      "category": "integration",
+      "client": {
+        "platform": "web",
+        "immediately": false,
+        "inject": [
+          "@deepseek-ai/dsh-client-ui-settings",
+          "@deepseek-ai/dsh-client-store"
+        ],
+        "entry": "./web/client.js"
+      },
+      "host": {
+        "entry": "./index.js",
+        "patch": "./cordis.patch.yml"
+      },
+      "tarball": "https://codeload.github.com/falling-ts/dsh-web-ding/tar.gz/main",
+      "npm": {
+        "version": "0.4.0",
+        "tarball": "https://registry.npmjs.org/@falling-ts/dsh-web-ding/-/dsh-web-ding-0.4.0.tgz"
       },
       "installable": true
     },
@@ -11092,48 +11194,6 @@
       "npm": {
         "version": "0.2.4",
         "tarball": "https://registry.npmjs.org/@goodandready/dsh-session-control/-/dsh-session-control-0.2.4.tgz"
-      },
-      "installable": true
-    },
-    {
-      "id": "@linbin-mk/dsh-workspace-prompt",
-      "repo": "linbin-mk/dsh-workspace-prompt",
-      "ref": "main",
-      "version": "0.2.1",
-      "description": "Third-party DeepSeek Harness plugin: per-workspace custom prompt configured from a slash command and injected into the model context at session start.",
-      "stars": 0,
-      "updatedAt": "2026-09-22T16:12:17Z",
-      "license": "MIT",
-      "homepage": "https://github.com/linbin-mk/dsh-workspace-prompt#readme",
-      "topics": [
-        "cordis",
-        "deepseek",
-        "deepseek-harness",
-        "dsh-plugin",
-        "prompt"
-      ],
-      "keywords": [
-        "dsh",
-        "dsh-plugin",
-        "deepseek",
-        "deepseek-harness",
-        "cordis",
-        "workspace",
-        "prompt",
-        "system-prompt",
-        "context-injection",
-        "agents"
-      ],
-      "category": "manager",
-      "client": null,
-      "host": {
-        "entry": null,
-        "patch": "./cordis.patch.yml"
-      },
-      "tarball": "https://codeload.github.com/linbin-mk/dsh-workspace-prompt/tar.gz/main",
-      "npm": {
-        "version": "0.1.0",
-        "tarball": "https://registry.npmjs.org/@linbin-mk/dsh-workspace-prompt/-/dsh-workspace-prompt-0.1.0.tgz"
       },
       "installable": true
     },
