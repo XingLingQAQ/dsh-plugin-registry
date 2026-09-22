@@ -108,8 +108,11 @@ function toEntry(item, ref, manifest) {
   // (presets, skills, agent teams) have neither half and are not installable.
   if (clientView === undefined && hostView === undefined) return undefined
 
-  // keywords feed the category classifier; they are not stored on the entry
-  // because the catalog only keeps fields a client needs at install time.
+  // keywords feed the category classifier *and* are stored, because the category
+  // is derived from them: without them on the entry, re-running the classifier
+  // over the catalog cannot reproduce a single category, so nobody can review or
+  // audit what the crawler decided. A few short strings per entry is a cheap
+  // price for a decision that can be checked.
   const keywords = Array.isArray(manifest.keywords)
     ? manifest.keywords.filter(k => typeof k === 'string')
     : []
@@ -137,6 +140,7 @@ function toEntry(item, ref, manifest) {
     license: item.license?.spdx_id ?? null,
     homepage: manifest.homepage ?? item.homepage ?? null,
     topics,
+    keywords,
     category,
     client: clientView ?? null,
     host: hostView ?? null,

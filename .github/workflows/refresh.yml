@@ -8,6 +8,11 @@ on:
   push:
     paths:
       - 'scripts/build-catalog.mjs'
+      # The category of every entry comes from this file, so editing it has to
+      # re-run the crawl. Without this line a classifier fix lands in the repo
+      # and never reaches the catalog, which looks exactly like the fix not
+      # working.
+      - 'scripts/classify.mjs'
       - '.github/workflows/refresh.yml'
 
 permissions:
